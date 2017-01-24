@@ -344,6 +344,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-19#LeftInfraorbitalSuture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-19#LeftInfraorbitalSuture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-19#InfraOrbitalSuture"/>
+        <rdfs:label>Left infra-orbital suture</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-19#MendosalSuture -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-19#MendosalSuture">
@@ -413,6 +422,15 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-19#OsLambdae">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_59327"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-19#RightInfraorbitalSuture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-19#RightInfraorbitalSuture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-19#InfraOrbitalSuture"/>
+        <rdfs:label>Right infra-orbital suture</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
