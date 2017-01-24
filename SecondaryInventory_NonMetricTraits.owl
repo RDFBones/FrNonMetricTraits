@@ -1,0 +1,469 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#"
+     xml:base="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000051 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000136 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000136"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000999 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000999"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/fma#regional_part_of -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/fma#regional_part_of"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_235058 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_235058"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_235060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_235060"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_259729 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_259729"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_259761 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_259761"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_259763 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_259763"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_52989 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_52989">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/fma#regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_235058"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_53171 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_53171">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/fma#regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_259729"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_53672 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_53672"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_57409 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_57409">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/fma#regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_235058"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_57412 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_57412">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/fma#regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_235058"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_57719 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_57719">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/fma#regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_259761"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_57720 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_57720">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/fma#regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_259763"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_62955 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_62955"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_75748 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_75748">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/fma#regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_53672"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000938 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000938"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000963 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000963"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/core#SkeletalInventory -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/core#SkeletalInventory"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-19#MendosalSuture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-19#MendosalSuture">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/fma#regional_part_of"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_235060"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#LabelForPresenceDatum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#LabelForPresenceDatum">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000963"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#PresenceDatum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#PresenceDatum">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/FMA_62955"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000999"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#LabelForPresenceDatum"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#PresenceOfFrontalForamen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#PresenceOfFrontalForamen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#PresenceDatum"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_57409"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#PresenceOfFrontalSuture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#PresenceOfFrontalSuture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#PresenceDatum"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_52989"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#PresenceOfIncaBone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#PresenceOfIncaBone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#PresenceDatum"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_75748"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#PresenceOfLeftInfraorbitalForamen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#PresenceOfLeftInfraorbitalForamen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#PresenceDatum"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_57720"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#PresenceOfMendosalSuture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#PresenceOfMendosalSuture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#PresenceDatum"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-19#MendosalSuture"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#PresenceOfMentalForamen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#PresenceOfMentalForamen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#PresenceDatum"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_53171"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#PresenceOfRightInfraorbitalForamen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#PresenceOfRightInfraorbitalForamen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#PresenceDatum"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_57719"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#PresenceOfSupraorbitalForamen -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#PresenceOfSupraorbitalForamen">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#PresenceDatum"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_57412"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#SecondarySkeletalInventory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#SecondarySkeletalInventory">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/core#SkeletalInventory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#SecondarySkeletalInventoryForNonMetricTraits -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#SecondarySkeletalInventoryForNonMetricTraits">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#SecondarySkeletalInventory"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#PresenceOfFrontalForamen"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#PresenceOfFrontalSuture"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#PresenceOfIncaBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#PresenceOfLeftInfraorbitalForamen"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#PresenceOfMendosalSuture"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#PresenceOfMentalForamen"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#PresenceOfRightInfraorbitalForamen"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#PresenceOfSupraorbitalForamen"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#Absent -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#Absent">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#LabelForPresenceDatum"/>
+        <rdfs:label>absent</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#NotObservable -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#NotObservable">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#LabelForPresenceDatum"/>
+        <rdfs:label>not observable</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#Present -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#Present">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-24#LabelForPresenceDatum"/>
+        <rdfs:label>present</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+
