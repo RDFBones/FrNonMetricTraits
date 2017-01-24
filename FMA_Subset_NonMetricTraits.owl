@@ -1,0 +1,422 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-19#"
+     xml:base="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-19"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-19"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_49443 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_49443">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_67135"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical structure, which has as its parts a heterogeneous collection of  organs, organ parts, cells, cell parts or body part subdivisions that are adjacent to, or continuous with one another; does not constitute a cell part, cell,  tissue,  organ, organ system or organ system subdivision, cardinal body part, body part subdivision or anatomical junction. Examples: joint, adnexa of uterus, root of lung, renal pedicle, back.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:49443</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical cluster</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_52989 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_52989">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_7493"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frontal suture of skull</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metopic suture</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sutura frontalis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:52989</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frontal suture</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_53165 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_53165">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_9338"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:53165</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cranial conduit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_53171 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_53171">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_53165"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:53171</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mental foramen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_57409 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_57409">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_53165"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Foramen frontale</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frontal notch</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:57409</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frontal foramen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_57410 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_57410">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_57409"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:57410</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right frontal foramen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_57411 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_57411">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_57409"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:57411</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left frontal foramen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_57412 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_57412">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_53165"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Foramen supraorbitale</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Supra-orbital foramen</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:57412</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Supraorbital foramen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_57413 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_57413">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_57412"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:57413</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right supraorbital foramen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_57414 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_57414">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_57412"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:57414</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left supraorbital foramen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_57718 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_57718">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_53165"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:57718</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Infra-orbital foramen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_57719 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_57719">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_57718"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:57719</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Right infra-orbital foramen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_57720 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_57720">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_57718"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:57720</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Left infra-orbital foramen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_5897 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_5897">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_67112"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immaterial anatomical entity which has three spatial dimensions. Examples: celom, thoracic cavity, lesser sac of peritoneum, cavity of right atrium, lumen of aorta, mediastinal space, space of anterior compartment of forearm, intervertebral foramen space.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:5897</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical space</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_59327 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_59327"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_61775 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_61775"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_64989 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_64989">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_49443"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical cluster which consists of all or some members of one or more organ subclasses and one or more organ part subclasses which are grouped together according to some shared attributes. Examples: joint, internal ear, pharynx.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:64989</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heterogeneous cluster</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_67112 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_67112">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_61775"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physical anatomical entity which is a three-dimensional space, surface, line or point associated with a material anatomical entity. Examples: body space, surface of heart, costal margin, apex of right lung, anterior compartment of right arm.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immaterial physical anatomical entity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:67112</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immaterial anatomical entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_67135 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_67135"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_7490 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_7490">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_64989"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heterogeneous cluster which consists of two or more adjacent bones or cartilages, parts of  which are interconnected by organ parts that consist of various types of connective tissue. Together with other joints and bones, a joint constitutes the skeletal system. Examples: pubic symphysis, knee joint, temporomandibular joint.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:7490</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joint</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_7491 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_7491">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_7490"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joint in which the articulating bones or cartilages are connected by ligaments or fibrocartilage without an intervening synovial cavity. Examples: sagittal suture, inferior tibiofibular syndesmosis, costochondral joint, pubic symphysis.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Solid joint</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:7491</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nonsynovial joint</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_7492 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_7492">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_7491"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nonsynovial joint in which the articulating bones or cartilages are connected by ligaments. Examples: sagittal suture, inferior tibiofibular syndesmosis, gomphosis.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Articulatio fibrosa</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:7492</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fibrous joint</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_7493 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_7493">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_7492"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fibrous joint in which the articulating bones or cartilages of the skull are connected by sutural ligaments (scant amount of collagenous dense connective tissue). Examples: sagittal suture, frontal suture.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:7493</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Suture</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_75748 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_75748">
+        <oboInOwl:hasExactSynonym>Inca Bone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Os incae</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FMA_9338 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_9338">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_5897"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical space which connects two or more compartment spaces or two or more anatomical cavities. Examples: foramen magnum, pyloric orifice, space of right inguinal canal, nutrient canal space,</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fma</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FMA:9338</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anatomical conduit space</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-19#InfraOrbitalSuture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-19#InfraOrbitalSuture">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_7493"/>
+        <rdfs:label>Infra-orbital suture</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-19#MendosalSuture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-19#MendosalSuture">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_7493"/>
+        <rdfs:label>Mendosal suture</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-19#MendosalSuturePartialis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-19#MendosalSuturePartialis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-19#MendosalSuture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-19#OsApicis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-19#OsApicis">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_59327"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-19#OsBregmaticum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-19#OsBregmaticum">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_59327"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-19#OsBregmaticumFrontale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-19#OsBregmaticumFrontale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-19#OsBregmaticum"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-19#OsBregmaticumParietale -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-19#OsBregmaticumParietale">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-19#OsBregmaticum"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-19#OsIncaePartialis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-19#OsIncaePartialis">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_75748"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-19#OsIncaePartitum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-19#OsIncaePartitum">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_75748"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-19#OsLambdae -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gall/ontologies/2017/0/untitled-ontology-19#OsLambdae">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FMA_59327"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+
