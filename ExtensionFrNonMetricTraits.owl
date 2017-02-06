@@ -424,12 +424,6 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#isMentioned"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HauserAndDeStefano1989"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.ApicalBone"/>
@@ -442,17 +436,13 @@
                 <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.ApicalBone"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>The point of junction of the sagittal suture with the occipital bone is called lambda and corresponds to the site of [...] the posterior or lesser fontanelle; there may occur one or more ossicle at lambda (fontanelle bones) (Hauser &amp; De Stefano 1989: 84).
-
-Add one of the following values to the instance of Score.ApicalBone in case of:
+        <core1:description>Add one of the following values to the instance of PresenceDatum.ApicalBone in case of:
 
 1: ossicle at lamda protruding mainly into the occipital (&quot;Os lambdae&quot;)
 
 2: ossicle at lambda protruding frontally (&quot;Os interparietalia&quot;)
 
 3: ossicle at lambda of triangular shape protruding into the occipital (&quot;Os apicis&quot;)</core1:description>
-        <oboInOwl:hasExactSynonym>Apical bone</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Os lambdae</oboInOwl:hasExactSynonym>
     </owl:Class>
     
 
@@ -469,12 +459,6 @@ Add one of the following values to the instance of Score.ApicalBone in case of:
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#isMentioned"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HauserAndDeStefano1989"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.BregmaticBone"/>
@@ -487,14 +471,11 @@ Add one of the following values to the instance of Score.ApicalBone in case of:
                 <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.BregmaticBone"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>The point of junction between these three bones [frontal and parietals] approximately in the midline is called bregma and corresponds to the site of a membrane-filled gap in the skull of the fetus and newborn, the anterior or greater fontanelle [...] There may occur one or more ossicles at bregma (fontanelle bones) [...] (Hauser &amp; De Stefano 1989: 84).
-
-Add one of the following values to the instance of Score.BregmaticBone in case of:
+        <core1:description>Add one of the following values to the instance of PresenceDatum.BregmaticBone in case of:
 
 1: bregmatic bone protruding into the frontal
 
 2: bregmatic bone protruding into the parietals</core1:description>
-        <oboInOwl:hasExactSynonym>Ossicle at bregma</oboInOwl:hasExactSynonym>
     </owl:Class>
     
 
@@ -523,8 +504,9 @@ Add one of the following values to the instance of Score.BregmaticBone in case o
                 <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.EnamelPearl"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>An enamel pearl may be present on a single tooth.
-Please specify its location in a comment.</core1:description>
+        <core1:description>Please specify the location of the enamel pearl in a comment.
+Do not add a value to the instance of PresenceDatum.EnamelPearl.
+Just select a LabelForPresence.</core1:description>
     </owl:Class>
     
 
@@ -553,6 +535,8 @@ Please specify its location in a comment.</core1:description>
                 <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.FrontalForamen"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <core1:description>Do not add a value to the instance of PresenceDatum.FrontalForamen.
+Just select a LabelForPresence.</core1:description>
     </owl:Class>
     
 
@@ -569,12 +553,6 @@ Please specify its location in a comment.</core1:description>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#isMentioned"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HauserAndDeStefano1989"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.IncaBone"/>
@@ -587,15 +565,11 @@ Please specify its location in a comment.</core1:description>
                 <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.IncaBone"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>If an approximately transverse suture divides the occipital squama in the position of the highest nuchal line, the part above this suture is named a complete inca bone. If in addition to the transverse suture also one or more longitudinal or additional transverse sutures subdivide the inca bone, these conditions are called a bipartite, tripartite or multipartite inca bone. If however the transverse suture is incomplete and occurs in combination with one or two longitudinal suture limiting an area corresponding to a part of a partitioned inca bone only, the condition is named a partial inca bone (Hauser &amp; De Stefano 1989: 99).
-
-Please add one of the following values to the instance of Score.IncaBone in case of:
+        <core1:description>Please add one of the following values to the instance of PresenceDatum.IncaBone in case of:
 
 1: partite inca bone
 
 2: partial inca bone</core1:description>
-        <oboInOwl:hasExactSynonym>Interparietal bone (FMA)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Os incae</oboInOwl:hasExactSynonym>
     </owl:Class>
     
 
@@ -612,12 +586,6 @@ Please add one of the following values to the instance of Score.IncaBone in case
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#isMentioned"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HauserAndDeStefano1989"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.InfraorbitalForamen"/>
@@ -630,12 +598,9 @@ Please add one of the following values to the instance of Score.IncaBone in case
                 <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.InfraorbitalForamen"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>The infraorbital foramen is situated on the external anterior surface of the maxilla below the infraorbital margin above the canine fossa (Hauser &amp; De Stefano 1989: 70).
-
-Add the following label to the instance of Score.InfraorbitalForamen in the case of:
+        <core1:description>Add the following value to the instance of PresenceDatum.InfraorbitalForamen in the case of:
 
 1: partite infraorbital foramen</core1:description>
-        <oboInOwl:hasExactSynonym>Foramen infraorbitale</oboInOwl:hasExactSynonym>
     </owl:Class>
     
 
@@ -652,12 +617,6 @@ Add the following label to the instance of Score.InfraorbitalForamen in the case
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#isMentioned"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HauserAndDeStefano1989"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.InfraorbitalSuture"/>
@@ -670,8 +629,8 @@ Add the following label to the instance of Score.InfraorbitalForamen in the case
                 <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.InfraorbitalSuture"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>The infraorbital canal is situated in the floor of the orbit. It originates occasionally from the inferior orbital fissure but usually from a groove beginning there, which is covered by an osseus roof after a variable distance [...] The suture may appear along the total length of the canal or on its orbital or facial parts separately (Hauser &amp; De Stefano 1989: 67).</core1:description>
-        <oboInOwl:hasExactSynonym>Sutura infraorbitalis</oboInOwl:hasExactSynonym>
+        <core1:description>Do not add a value to the instance of PresenceDatum.InfraorbitalSuture.
+Just select a LabelForPresence.</core1:description>
     </owl:Class>
     
 
@@ -688,12 +647,6 @@ Add the following label to the instance of Score.InfraorbitalForamen in the case
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#isMentioned"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HauserAndDeStefano1989"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.MendosalSuture"/>
@@ -706,9 +659,8 @@ Add the following label to the instance of Score.InfraorbitalForamen in the case
                 <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.MendosalSuture"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>On both lateral margins of the fetal occipital squama a fissure curving slightly upwards is visible. The remnant of this, the sutura mendosa, originates most frequently from the asterion, rarely below and very seldom above it. It is situated either a little above, or rarely in, the transverse groove of the cerebral surface of the occipital squama [...] This suture is not the same as the transverse occipital suture and never bisects the occipital squama totally into an upper and a lower part. The suture is generally of a simple pattern, while the transverse occipital suture is frequently rather complicated (Hauser &amp; De Stefano 1989: 194).</core1:description>
-        <oboInOwl:hasExactSynonym>Biasterionic suture</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Sutura mendosa</oboInOwl:hasExactSynonym>
+        <core1:description>Do not add a value to the instance of PresenceDatum.MendosalSuture.
+Just select a LabelForPresence.</core1:description>
     </owl:Class>
     
 
@@ -725,12 +677,6 @@ Add the following label to the instance of Score.InfraorbitalForamen in the case
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#isMentioned"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HauserAndDeStefano1989"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.MentalForamen"/>
@@ -743,14 +689,11 @@ Add the following label to the instance of Score.InfraorbitalForamen in the case
                 <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.MentalForamen"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>On the external surface of each side of the mandible generally in the area below the premolars, and most frequently below the apex of the second premolar is situated the mental foramen. The foramen may vary with respect to its position, its shape and size, it may be double or multiple with varying distances between the apertures, and in rare instances may even be absent&quot; (Hauser &amp; De Stefano 1989: 230).
-
-Add one of the following labels to the instance of Score.MentalForamen in case of:
+        <core1:description>Add one of the following values to the instance of PresenceDatum.MentalForamen in case of:
 
 1: absent mental foramina
 
 2: multiple mental foramina</core1:description>
-        <oboInOwl:hasExactSynonym>Foramen mentale</oboInOwl:hasExactSynonym>
     </owl:Class>
     
 
@@ -767,12 +710,6 @@ Add one of the following labels to the instance of Score.MentalForamen in case o
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/core#isMentioned"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HauserAndDeStefano1989"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
                 <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.MetopicSuture"/>
@@ -785,15 +722,8 @@ Add one of the following labels to the instance of Score.MentalForamen in case o
                 <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.MetopicSuture"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>At birth the [frontal] bone consists of two halves separated by a mediofrontal suture - the sutura interfrontalis. If this suture persists after the time of its normal obliteration it is named metopic suture. When observed from the anterios aspect the metopic suture passes downwards from the bregma to the nasion (Hauser &amp; De Stefano 1989: 41).</core1:description>
-        <oboInOwl:hasExactSynonym>Caput cruciatum</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Frontal suture</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Metopism</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Sutura frontalis</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Sutura frontalis persistens</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Sutura interfrontalis</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Sutura mediofrontalis</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Sutura metopica</oboInOwl:hasExactSynonym>
+        <core1:description>Do not add a value to the instance of PresenceDatum.MetopicSuture.
+Just select a LabelForPresence.</core1:description>
     </owl:Class>
     
 
@@ -822,6 +752,8 @@ Add one of the following labels to the instance of Score.MentalForamen in case o
                 <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.SupraorbitalForamen"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <core1:description>Do not add a value to the instance of PresenceDatum.SupraorbitalForamen.
+Just select a LabelForPresence.</core1:description>
     </owl:Class>
     
 
@@ -896,32 +828,7 @@ Add one of the following labels to the instance of Score.MentalForamen in case o
                 <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.SupraorbitalForamen"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>The DegreeOfSexualization is calculated from SexScores from assays carried out on material of one single skull or parts of one single skull. Thus, the conclusion refers to one individual.
-The DegreeOfSexualization is a rational number that ranges from -2 to +2 with negative values indicating femininity and positive values indicating masculinity.
-There are at leat two ways of drawing a conclusion based on the DegreeOfSexualization, i.e. two ways of selecting a LabelForSex. It is highly recommended to specify the way of drawing a conclusion in the plan and follow the plan throughout the whole investigation.
-
-
-1. Rigorously calculating
-
-Since the DegreeOfSexualization (abbr. DoS) is a decimal number ranging from -2 to +2, one could follow these rules:
-
-If +2 &gt;= DoS &gt;= 1.5 then sex is regarded as hypermasculine
-
-If 1.5 &gt; DoS &gt;= 0.5 then sex is regarded as masculine
-
-If 0.5 &gt; DoS &gt; -0.5 then sex is regarded as indifferent
-
-If -1.5 &lt; DoS =&lt; -0.5 then sex is regarded as feminine
-
-If -2 =&lt; DoS =&lt; -1.5 then sex is regarded as hyperfeminine
-
-This way does not require any kind of expert knowledge. Therefore, this way of sex estimation is rather a data transformation then a conclusion, but it is objective and comprehensible.
-
-
-2. Expert judgement
-
-One could regard the DegreeOfSexualization just as an useful indication. Together with the expertise of an experienced anthropologist and maybe further information on the sexual dimorphism of a given population and the state of preservation, the researcher may draw a conclusion. This conclusion – as an amalgamation of different kinds of information and experience – is therefore less objective and comprehensible but may be more reliable.
-In this case, please add a comment to the instance of EstimatingSexBasedOnDegreeOfSexualization and explain the conclusion in greater detail.</core1:description>
+        <core1:description>Although the data entry form for cranial non-metric traits used at the Biological Anthropology department at Freiburg University does not require a conclusion, in FrNonMetricTraits, the researcher has the possibility to draw a conclusion based on the presence or absence of non-metric traits.</core1:description>
     </owl:Class>
     
 
@@ -1113,7 +1020,8 @@ DegreeOfSexualization = sum(WSS) / sum(W)</core1:description>
                 <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#StudyDesignExecution.FrNonMetricTraits"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>The Freiburg method of sex estimation (abbr. FrSexEst) is a morphological method that utilizes cranial and mandibular traits to estimate the sex of individuals from the bony parts of their skulls.</core1:description>
+        <core1:description>FrNonMetricTraits is an extension for the documentation of cranial non-metric traits.
+The set of traits comprises all cranial non-metric traits which were documented for skulls of the Alexander-Ecker-Collection in Freiburg due to repatriation claims. The set of non-metric traits includes suture bones, sutures, foramina and enamel pearls.</core1:description>
     </owl:Class>
     
 
@@ -1122,8 +1030,7 @@ DegreeOfSexualization = sum(WSS) / sum(W)</core1:description>
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForPresence">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000963"/>
-        <core1:description>The instances of this class are used as labels for instances of subclasses of SexScore and instances of EstimatingSexBasedOnDegreeOfSexualization (= drawing a conclusion).
-They denote the appearance of traits that a researcher evaluated or denote the sex of an individual that was estimated based on the DegreeOfSexualization.</core1:description>
+        <core1:description>The instances of this class are used as labels for instances of subclasses of PresenceDatum and specify in this way if a non-metric trait is not observable, absent or present.</core1:description>
     </owl:Class>
     
 
@@ -1150,14 +1057,8 @@ They denote the appearance of traits that a researcher evaluated or denote the s
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#StudyDesign.FrNonMetricTraits"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>For each FrSexEst investigation, an instance of Plan.FrSexEst is created.
-The Plan.FrSexEst contains all information on how the StudyDesign.FrSexEst is applied to the material in this single investigation.
-A detailed plan contributes substantially to the transperancy of an investigation and increases its repeatability. It is especially useful, since the StudyDesign.FrSexEst leaves some decisions open to the researcher and is highly recommended if decisions are made different than suggested in StudyDesign.FrSexEst.</core1:description>
-        <core1:description>Here are some points left open by StudyDesignFrSexEst plus examples of plan specifications:
-
-The researcher may specify precisely what material is included in the sample, i.e. selected as specimen, before the work on the material begins. For example: &quot;Skulls are included in the sample if more than 10 cranial and mandibular traits can be evaluated.&quot;
-The reseacher may specify precisely how the assays are carried out in this investigation. For example: &quot;The mastoid process, especially its height and breadth, is evaluated from a lateral perspective.&quot;
-The researcher may specify how to draw a conclusion based on the DegreeOfSexualization. For example: &quot;Conclusions are regarded as expert judgements and comments are added to describe the conclusions in detail.&quot;</core1:description>
+        <core1:description>For each FrNonMetricTraits investigation, an instance of Plan.NonMetricTraits must be created.
+Add comments or documents to this instance of Plan.NonMetricTraits to specify how the StudyDesign.FrNonMetricTraits is applied to the material in this single investigation.</core1:description>
     </owl:Class>
     
 
@@ -1172,8 +1073,8 @@ The researcher may specify how to draw a conclusion based on the DegreeOfSexuali
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#StudyDesign.FrNonMetricTraits"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>For each FrSexEst investigation that is carried out, an instance of Planning.FrSexEst is created. Comments may be added to Planning.FrSexEst to document all disussions, preparations etc. which were performed before researchers agreed on carrying out an FrSexEst investigation.</core1:description>
-        <core1:description>Planning.FrSexEst has in contrast to other investigation planning processes no testable hypothesis as input since the process of estimating the sex of an individual can be undertaken without testing any hypothesis.</core1:description>
+        <core1:description>For each FrNonMetricTraits investigation that is carried out, an instance of Planning.FrNonMetricTraits is created. Comments may be added to Planning.FrNonMetricTraits to document all disussions, preparations etc. which were performed before researchers agreed on carrying out a FrNonMetricTraits investigation.</core1:description>
+        <core1:description>Planning.FrNonMetricTraits has no testable hypothesis as input since the process of documenting non-metric traits can be undertaken without testing a specific hypothesis.</core1:description>
     </owl:Class>
     
 
@@ -1197,8 +1098,20 @@ The researcher may specify how to draw a conclusion based on the DegreeOfSexuali
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.ApicalBone">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum"/>
-        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
-The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#hasValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForPresence to the instance of this class.
+The researcher must assign a value to this instance to specify which characteristic of the evaluated trait is present:
+
+1: ossicle at lamda protruding mainly into the occipital (&quot;Os lambdae&quot;)
+
+2: ossicle at lambda protruding frontally (&quot;Os interparietalia&quot;)
+
+3: ossicle at lambda of triangular shape protruding into the occipital (&quot;Os apicis&quot;)</core1:description>
     </owl:Class>
     
 
@@ -1207,8 +1120,18 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.BregmaticBone">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum"/>
-        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
-The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#hasValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForPresence to the instance of this class.
+The researcher must assign a value to this instance to specify which characteristic of the evaluated trait is present:
+
+1: bregmatic bone protruding into the frontal
+
+2: bregmatic bone protruding into the parietals</core1:description>
     </owl:Class>
     
 
@@ -1217,8 +1140,7 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.EnamelPearl">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum"/>
-        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
-The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
+        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForPresence to the instance of this class.</core1:description>
     </owl:Class>
     
 
@@ -1227,8 +1149,7 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.FrontalForamen">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum"/>
-        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
-The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
+        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForPresence to the instance of this class.</core1:description>
     </owl:Class>
     
 
@@ -1237,8 +1158,18 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.IncaBone">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum"/>
-        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
-The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#hasValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForPresence to the instance of this class.
+The researcher must assign a value to this instance to specify which characteristic of the evaluated trait is present:
+
+1: partite inca bone
+
+2: partial inca bone</core1:description>
     </owl:Class>
     
 
@@ -1247,8 +1178,16 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.InfraorbitalForamen">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum"/>
-        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
-The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#hasValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForPresence to the instance of this class.
+The researcher must assign a value to this instance to specify which characteristic of the evaluated trait is present:
+
+1: partite infraorbital foramen</core1:description>
     </owl:Class>
     
 
@@ -1257,8 +1196,7 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.InfraorbitalSuture">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum"/>
-        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
-The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
+        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForPresence to the instance of this class.</core1:description>
     </owl:Class>
     
 
@@ -1267,8 +1205,7 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.MendosalSuture">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum"/>
-        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
-The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
+        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForPresence to the instance of this class.</core1:description>
     </owl:Class>
     
 
@@ -1277,8 +1214,18 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.MentalForamen">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum"/>
-        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
-The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#hasValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForPresence to the instance of this class.
+The researcher must assign a value to this instance to specify which characteristic of the evaluated trait is present:
+
+1: absent mental foramina
+
+2: multiple mental foramina</core1:description>
     </owl:Class>
     
 
@@ -1287,8 +1234,7 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.MetopicSuture">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum"/>
-        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
-The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
+        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForPresence to the instance of this class.</core1:description>
     </owl:Class>
     
 
@@ -1297,8 +1243,7 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.SupraorbitalForamen">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum"/>
-        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSex to the instance of this class.
-The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
+        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForPresence to the instance of this class.</core1:description>
     </owl:Class>
     
 
@@ -1314,7 +1259,7 @@ The researcher may add a comment to this instance to explain his decision in det
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>A class technically required for the automatic prescreening of potential specimen.
-The class which SkeletalMaterialSpecification.FrSexEst is about defines the range within which the software searches for potential specimens. As default, &quot;Skeletal inventory&quot; is chosen. Thus, all skeletal inventories, i.e. all the material within a collection, is screened. By defining subclasses of &apos;Skeletal inventory&apos; and selecting one or more of these, the range of the prescreening procedure can be adjusted.</rdfs:comment>
+The class which SkeletalMaterialSpecification.FrNonMetricTraits is about defines the range within which the RDFBones software searches for potential specimens. As default, &quot;Skeletal inventory&quot; is selected. Thus, all skeletal inventories, i.e. all the material within a collection, is screened.</rdfs:comment>
     </owl:Class>
     
 
@@ -1329,8 +1274,8 @@ The class which SkeletalMaterialSpecification.FrSexEst is about defines the rang
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#NonMetricTrait"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrSexEst).
-Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrNonMetricTraits).
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
     </owl:Class>
     
 
@@ -1345,8 +1290,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#NonMetricTrait"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrSexEst).
-Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrNonMetricTraits).
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
     </owl:Class>
     
 
@@ -1361,8 +1306,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#NonMetricTrait"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrSexEst).
-Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrNonMetricTraits).
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
     </owl:Class>
     
 
@@ -1377,8 +1322,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#NonMetricTrait"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrSexEst).
-Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrNonMetricTraits).
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
     </owl:Class>
     
 
@@ -1393,8 +1338,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#NonMetricTrait"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrSexEst).
-Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrNonMetricTraits).
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
     </owl:Class>
     
 
@@ -1409,8 +1354,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#NonMetricTrait"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrSexEst).
-Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrNonMetricTraits).
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
     </owl:Class>
     
 
@@ -1425,8 +1370,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#NonMetricTrait"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrSexEst).
-Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrNonMetricTraits).
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
     </owl:Class>
     
 
@@ -1441,8 +1386,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#NonMetricTrait"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrSexEst).
-Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrNonMetricTraits).
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
     </owl:Class>
     
 
@@ -1457,8 +1402,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#NonMetricTrait"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrSexEst).
-Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrNonMetricTraits).
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
     </owl:Class>
     
 
@@ -1473,8 +1418,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#NonMetricTrait"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrSexEst).
-Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrNonMetricTraits).
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
     </owl:Class>
     
 
@@ -1489,8 +1434,8 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#NonMetricTrait"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrSexEst).
-Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrNonMetricTraits).
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
     </owl:Class>
     
 
@@ -1517,9 +1462,9 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.ApicalBone"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. A potential input is an entire bone or a set of entire bones which satisfies the corresponding SpecimenCollectionObjective.
-The output of the SpecimenCollectionProcess (=specimen), i.e. a skull which is sex estimated, is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrSexEst.
-Although different material could be selected for each trait, the researcher should choose a single skull as specimen if it allows the assessment of a sufficient number of traits (specified in the Plan.FrSexEst). Then, the reseacher should select only this skull as specimen for all the traits that are evaluable on this skull. Just in this way, each instance of StudyDesignExecution.FrSexEst corresponds to the sex estimation of a single skull.</core1:description>
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the RDFBones software which automatically prescreens all skeletal inventories for potential input.
+A potential input satisfies the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrNonMetricTraits.</core1:description>
     </owl:Class>
     
 
@@ -1546,9 +1491,9 @@ Although different material could be selected for each trait, the researcher sho
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.BregmaticBone"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. A potential input is an entire bone or a set of entire bones which satisfies the corresponding SpecimenCollectionObjective.
-The output of the SpecimenCollectionProcess (=specimen), i.e. a skull which is sex estimated, is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrSexEst.
-Although different material could be selected for each trait, the researcher should choose a single skull as specimen if it allows the assessment of a sufficient number of traits (specified in the Plan.FrSexEst). Then, the reseacher should select only this skull as specimen for all the traits that are evaluable on this skull. Just in this way, each instance of StudyDesignExecution.FrSexEst corresponds to the sex estimation of a single skull.</core1:description>
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the RDFBones software which automatically prescreens all skeletal inventories for potential input.
+A potential input satisfies the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrNonMetricTraits.</core1:description>
     </owl:Class>
     
 
@@ -1569,9 +1514,9 @@ Although different material could be selected for each trait, the researcher sho
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.EnamelPearl"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. A potential input is an entire bone or a set of entire bones which satisfies the corresponding SpecimenCollectionObjective.
-The output of the SpecimenCollectionProcess (=specimen), i.e. a skull which is sex estimated, is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrSexEst.
-Although different material could be selected for each trait, the researcher should choose a single skull as specimen if it allows the assessment of a sufficient number of traits (specified in the Plan.FrSexEst). Then, the reseacher should select only this skull as specimen for all the traits that are evaluable on this skull. Just in this way, each instance of StudyDesignExecution.FrSexEst corresponds to the sex estimation of a single skull.</core1:description>
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the RDFBones software which automatically prescreens all skeletal inventories for potential input.
+A potential input satisfies the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrNonMetricTraits.</core1:description>
     </owl:Class>
     
 
@@ -1598,9 +1543,9 @@ Although different material could be selected for each trait, the researcher sho
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrontalForamen"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. A potential input is an entire bone or a set of entire bones which satisfies the corresponding SpecimenCollectionObjective.
-The output of the SpecimenCollectionProcess (=specimen), i.e. a skull which is sex estimated, is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrSexEst.
-Although different material could be selected for each trait, the researcher should choose a single skull as specimen if it allows the assessment of a sufficient number of traits (specified in the Plan.FrSexEst). Then, the reseacher should select only this skull as specimen for all the traits that are evaluable on this skull. Just in this way, each instance of StudyDesignExecution.FrSexEst corresponds to the sex estimation of a single skull.</core1:description>
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the RDFBones software which automatically prescreens all skeletal inventories for potential input.
+A potential input satisfies the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrNonMetricTraits.</core1:description>
     </owl:Class>
     
 
@@ -1627,9 +1572,9 @@ Although different material could be selected for each trait, the researcher sho
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.IncaBone"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. A potential input is an entire bone or a set of entire bones which satisfies the corresponding SpecimenCollectionObjective.
-The output of the SpecimenCollectionProcess (=specimen), i.e. a skull which is sex estimated, is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrSexEst.
-Although different material could be selected for each trait, the researcher should choose a single skull as specimen if it allows the assessment of a sufficient number of traits (specified in the Plan.FrSexEst). Then, the reseacher should select only this skull as specimen for all the traits that are evaluable on this skull. Just in this way, each instance of StudyDesignExecution.FrSexEst corresponds to the sex estimation of a single skull.</core1:description>
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the RDFBones software which automatically prescreens all skeletal inventories for potential input.
+A potential input satisfies the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrNonMetricTraits.</core1:description>
     </owl:Class>
     
 
@@ -1656,9 +1601,9 @@ Although different material could be selected for each trait, the researcher sho
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.InfraorbitalForamen"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. A potential input is an entire bone or a set of entire bones which satisfies the corresponding SpecimenCollectionObjective.
-The output of the SpecimenCollectionProcess (=specimen), i.e. a skull which is sex estimated, is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrSexEst.
-Although different material could be selected for each trait, the researcher should choose a single skull as specimen if it allows the assessment of a sufficient number of traits (specified in the Plan.FrSexEst). Then, the reseacher should select only this skull as specimen for all the traits that are evaluable on this skull. Just in this way, each instance of StudyDesignExecution.FrSexEst corresponds to the sex estimation of a single skull.</core1:description>
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the RDFBones software which automatically prescreens all skeletal inventories for potential input.
+A potential input satisfies the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrNonMetricTraits.</core1:description>
     </owl:Class>
     
 
@@ -1685,9 +1630,9 @@ Although different material could be selected for each trait, the researcher sho
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.InfraorbitalSuture"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. A potential input is an entire bone or a set of entire bones which satisfies the corresponding SpecimenCollectionObjective.
-The output of the SpecimenCollectionProcess (=specimen), i.e. a skull which is sex estimated, is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrSexEst.
-Although different material could be selected for each trait, the researcher should choose a single skull as specimen if it allows the assessment of a sufficient number of traits (specified in the Plan.FrSexEst). Then, the reseacher should select only this skull as specimen for all the traits that are evaluable on this skull. Just in this way, each instance of StudyDesignExecution.FrSexEst corresponds to the sex estimation of a single skull.</core1:description>
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the RDFBones software which automatically prescreens all skeletal inventories for potential input.
+A potential input satisfies the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrNonMetricTraits.</core1:description>
     </owl:Class>
     
 
@@ -1714,9 +1659,9 @@ Although different material could be selected for each trait, the researcher sho
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.MendosalSuture"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. A potential input is an entire bone or a set of entire bones which satisfies the corresponding SpecimenCollectionObjective.
-The output of the SpecimenCollectionProcess (=specimen), i.e. a skull which is sex estimated, is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrSexEst.
-Although different material could be selected for each trait, the researcher should choose a single skull as specimen if it allows the assessment of a sufficient number of traits (specified in the Plan.FrSexEst). Then, the reseacher should select only this skull as specimen for all the traits that are evaluable on this skull. Just in this way, each instance of StudyDesignExecution.FrSexEst corresponds to the sex estimation of a single skull.</core1:description>
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the RDFBones software which automatically prescreens all skeletal inventories for potential input.
+A potential input satisfies the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrNonMetricTraits.</core1:description>
     </owl:Class>
     
 
@@ -1743,9 +1688,9 @@ Although different material could be selected for each trait, the researcher sho
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.MentalForamen"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. A potential input is an entire bone or a set of entire bones which satisfies the corresponding SpecimenCollectionObjective.
-The output of the SpecimenCollectionProcess (=specimen), i.e. a skull which is sex estimated, is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrSexEst.
-Although different material could be selected for each trait, the researcher should choose a single skull as specimen if it allows the assessment of a sufficient number of traits (specified in the Plan.FrSexEst). Then, the reseacher should select only this skull as specimen for all the traits that are evaluable on this skull. Just in this way, each instance of StudyDesignExecution.FrSexEst corresponds to the sex estimation of a single skull.</core1:description>
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the RDFBones software which automatically prescreens all skeletal inventories for potential input.
+A potential input satisfies the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrNonMetricTraits.</core1:description>
     </owl:Class>
     
 
@@ -1772,9 +1717,9 @@ Although different material could be selected for each trait, the researcher sho
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.MetopicSuture"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. A potential input is an entire bone or a set of entire bones which satisfies the corresponding SpecimenCollectionObjective.
-The output of the SpecimenCollectionProcess (=specimen), i.e. a skull which is sex estimated, is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrSexEst.
-Although different material could be selected for each trait, the researcher should choose a single skull as specimen if it allows the assessment of a sufficient number of traits (specified in the Plan.FrSexEst). Then, the reseacher should select only this skull as specimen for all the traits that are evaluable on this skull. Just in this way, each instance of StudyDesignExecution.FrSexEst corresponds to the sex estimation of a single skull.</core1:description>
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the RDFBones software which automatically prescreens all skeletal inventories for potential input.
+A potential input satisfies the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrNonMetricTraits.</core1:description>
     </owl:Class>
     
 
@@ -1801,9 +1746,9 @@ Although different material could be selected for each trait, the researcher sho
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.SupraorbitalForamen"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. A potential input is an entire bone or a set of entire bones which satisfies the corresponding SpecimenCollectionObjective.
-The output of the SpecimenCollectionProcess (=specimen), i.e. a skull which is sex estimated, is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrSexEst.
-Although different material could be selected for each trait, the researcher should choose a single skull as specimen if it allows the assessment of a sufficient number of traits (specified in the Plan.FrSexEst). Then, the reseacher should select only this skull as specimen for all the traits that are evaluable on this skull. Just in this way, each instance of StudyDesignExecution.FrSexEst corresponds to the sex estimation of a single skull.</core1:description>
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the RDFBones software which automatically prescreens all skeletal inventories for potential input.
+A potential input satisfies the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrNonMetricTraits.</core1:description>
     </owl:Class>
     
 
@@ -1944,9 +1889,11 @@ Although different material could be selected for each trait, the researcher sho
                 <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.SupraorbitalForamen"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>For each individual&apos;s skull whose sex should be estimated, an instance of StudyDesignExecution.FrSexEst should be created.
-All assays which can be carried out on this skull have only material from this skull as input (=specimen). These assays are related to the corresponding instance of StudyDesignExecution.FrSexEst.
-Thus, an investigation which comprises sex estimations of several individuals will consist of a single instance of Investigation.FrSexEst and instances of StudyDesignExecution as to the number of individuals in the sample.</core1:description>
+        <core1:description>The study design execution of FrNonMetricTraits consists of collecting specimen and carrying out assays.
+For each human skull that is to be included in a FrNonMetricTraits investigation, an instance of StudyDesignExecution.NonMetricTraits must be created.
+Only this skull or parts of this skull should be selected as specimen in the specimen collection processes.
+All assays carried out on this skull must have the specimen as input which belongs to this specific skull.
+Thus, each instance of StudyDesignExecution.FrNonMetricTraits corresponds to the examination of a single human skull.</core1:description>
     </owl:Class>
     
 
@@ -1981,8 +1928,7 @@ Thus, an investigation which comprises sex estimations of several individuals wi
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AlexanderEckerCollectionDataEntryForm.FrNonMetricTraits">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000272"/>
-        <core1:description>In the software version of FrSexEst, a PDF and csv version of the data entry form for the sex estimation of adults which was used in the sex estimation of skulls from the Alexander-Ecker-Collection Freiburg is attached to this instance.
-The data entry form can be downloaded from the GitHub page of FrSexEst alternatively.</core1:description>
+        <core1:description>In the software version of FrNonMetricTraits, a PDF and csv version of the data entry form for the documentation of non-metric traits which was used for the documentation of skulls from the Alexander-Ecker-Collection in Freiburg can be attached to this instance.</core1:description>
         <rdfs:label>AlexanderEckerCollectionDataEntryForm.FrNonMetricTraits</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2077,8 +2023,10 @@ The data entry form can be downloaded from the GitHub page of FrSexEst alternati
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.ApicalBone">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrontalAndParietalEminences"/>
-        <core1:description>Unfortunately, the exact procedure of scoring the Frontal and Parietal Eminences correctly is not thoroughly documented for the sex estimations of skulls from the Alexander-Ecker-Collection Freiburg.
-The researcher is encouraged to specify his procedure in the Plan.FrSexEst.</core1:description>
+        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HauserAndDeStefano1989"/>
+        <core1:description>The point of junction of the sagittal suture with the occipital bone is called lambda and corresponds to the site of [...] the posterior or lesser fontanelle; there may occur one or more ossicle at lambda (fontanelle bones). [Hauser &amp; De Stefano 1989: 84]</core1:description>
+        <oboInOwl:hasExactSynonym>Os lambdae</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Ossicle at lambda</oboInOwl:hasExactSynonym>
         <rdfs:label>AssaySpecification.ApicalBone</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2089,7 +2037,9 @@ The researcher is encouraged to specify his procedure in the Plan.FrSexEst.</cor
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.BregmaticBone">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.ExternalOccipitalProtuberance"/>
-        <core1:description>The External Occipital Protuberance should be scored according to Sjøvold 1988 (graph 168, b) viewed laterally (in norma lateralis).</core1:description>
+        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HauserAndDeStefano1989"/>
+        <core1:description>The point of junction between these three bones [frontal and parietals] approximately in the midline is called bregma and corresponds to the site of a membrane-filled gap in the skull of the fetus and newborn, the anterior or greater fontanelle [...] There may occur one or more ossicles at bregma (fontanelle bones) [...]. [Hauser &amp; De Stefano 1989: 84]</core1:description>
+        <oboInOwl:hasExactSynonym>Ossicle et bregma</oboInOwl:hasExactSynonym>
         <rdfs:label>AssaySpecification.BregmaticBone</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2100,7 +2050,7 @@ The researcher is encouraged to specify his procedure in the Plan.FrSexEst.</cor
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.EnamelPearl">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.Glabella"/>
-        <core1:description>The Glabella should be scored according to Sjøvold 1988 (graph 168, a) viewed laterally (in norma lateralis).</core1:description>
+        <core1:description>A pearl of enamel on locations where enamel is usually not present, between the roots of a molar, for instance.</core1:description>
         <rdfs:label>AssaySpecification.EnamelPearl</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2111,7 +2061,6 @@ The researcher is encouraged to specify his procedure in the Plan.FrSexEst.</cor
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrontalForamen">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.GonialAngle"/>
-        <core1:description>The Gonial Angle should be scored according to Sjøvold 1988 (graph 168, e) viewed laterally (in norma lateralis).</core1:description>
         <rdfs:label>AssaySpecification.FrontalForamen</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2122,8 +2071,10 @@ The researcher is encouraged to specify his procedure in the Plan.FrSexEst.</cor
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.IncaBone">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MandibleAsAWhole"/>
-        <core1:description>Unfortunately, the exact procedure of scoring the appearance of the whole Mandible correctly is not thoroughly documented for the sex estimations of skulls from the Alexander-Ecker-Collection Freiburg.
-The researcher is encouraged to specify his procedure in the Plan.FrSexEst.</core1:description>
+        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HauserAndDeStefano1989"/>
+        <core1:description>If an approximately transverse suture divides the occipital squama in the position of the highest nuchal line, the part above this suture is named a complete inca bone. If in addition to the transverse suture also one or more longitudinal or additional transverse sutures subdivide the inca bone, these conditions are called a bipartite, tripartite or multipartite inca bone. If however the transverse suture is incomplete and occurs in combination with one or two longitudinal suture limiting an area corresponding to a part of a partitioned inca bone only, the condition is named a partial inca bone. [Hauser &amp; De Stefano 1989: 99]</core1:description>
+        <oboInOwl:hasExactSynonym>Interparietal bone (FMA)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Os incae</oboInOwl:hasExactSynonym>
         <rdfs:label>AssaySpecification.IncaBone</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2134,7 +2085,9 @@ The researcher is encouraged to specify his procedure in the Plan.FrSexEst.</cor
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.InfraorbitalForamen">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MastoidProcess"/>
-        <core1:description>The Mastoid Process should be scored according to Sjøvold 1988 (graph 168, c) viewed dorsally (in norma occipitalis).</core1:description>
+        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HauserAndDeStefano1989"/>
+        <core1:description>The infraorbital foramen is situated on the external anterior surface of the maxilla below the infraorbital margin above the canine fossa. [Hauser &amp; De Stefano 1989: 70]</core1:description>
+        <oboInOwl:hasExactSynonym>Foramen infraorbitale</oboInOwl:hasExactSynonym>
         <rdfs:label>AssaySpecification.InfraorbitalForamen</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2145,7 +2098,9 @@ The researcher is encouraged to specify his procedure in the Plan.FrSexEst.</cor
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.InfraorbitalSuture">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MentalProtuberance"/>
-        <core1:description>The Metal Protuberance should be scored according to Sjøvold 1988 (graph 168, f) viewed frontally (in norma facialis).</core1:description>
+        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HauserAndDeStefano1989"/>
+        <core1:description>The infraorbital canal is situated in the floor of the orbit. It originates occasionally from the inferior orbital fissure but usually from a groove beginning there, which is covered by an osseus roof after a variable distance [...] The suture may appear along the total length of the canal or on its orbital or facial parts separately. [Hauser &amp; De Stefano 1989: 67]</core1:description>
+        <oboInOwl:hasExactSynonym>Sutura infraorbitalis</oboInOwl:hasExactSynonym>
         <rdfs:label>AssaySpecification.InfraorbitalSuture</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2156,8 +2111,10 @@ The researcher is encouraged to specify his procedure in the Plan.FrSexEst.</cor
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.MendosalSuture">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MylohyoidLine"/>
-        <core1:description>Unfortunately, the exact procedure of scoring the Mylohyoid Line correctly is not thoroughly documented for the sex estimations of skulls from the Alexander-Ecker-Collection Freiburg.
-The researcher is encouraged to specify his procedure in the Plan.FrSexEst.</core1:description>
+        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HauserAndDeStefano1989"/>
+        <core1:description>On both lateral margins of the fetal occipital squama a fissure curving slightly upwards is visible. The remnant of this, the sutura mendosa, originates most frequently from the asterion, rarely below and very seldom above it. It is situated either a little above, or rarely in, the transverse groove of the cerebral surface of the occipital squama [...] This suture is not the same as the transverse occipital suture and never bisects the occipital squama totally into an upper and a lower part. The suture is generally of a simple pattern, while the transverse occipital suture is frequently rather complicated. [Hauser &amp; De Stefano 1989: 194]</core1:description>
+        <oboInOwl:hasExactSynonym>Biasterionic suture</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Sutura mendosa</oboInOwl:hasExactSynonym>
         <rdfs:label>AssaySpecification.MendosalSuture</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2168,8 +2125,9 @@ The researcher is encouraged to specify his procedure in the Plan.FrSexEst.</cor
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.MentalForamen">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.NuchalPlanum"/>
-        <core1:description>Unfortunately, the exact procedure of scoring the relief of the Nuchal Planum correctly is not thoroughly documented for the sex estimations of skulls from the Alexander-Ecker-Collection Freiburg.
-The researcher is encouraged to specify his procedure in the Plan.FrSexEst.</core1:description>
+        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HauserAndDeStefano1989"/>
+        <core1:description>On the external surface of each side of the mandible generally in the area below the premolars, and most frequently below the apex of the second premolar is situated the mental foramen. The foramen may vary with respect to its position, its shape and size, it may be double or multiple with varying distances between the apertures, and in rare instances may even be absent. [Hauser &amp; De Stefano 1989: 230]</core1:description>
+        <oboInOwl:hasExactSynonym>Foramen mentale</oboInOwl:hasExactSynonym>
         <rdfs:label>AssaySpecification.MentalForamen</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2180,7 +2138,16 @@ The researcher is encouraged to specify his procedure in the Plan.FrSexEst.</cor
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.MetopicSuture">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrSexEst.ZygomaticArch"/>
-        <core1:description>The shape of the Orbital Aperture should be scored according to Sjøvold 1988 (graph 168, d) viewed frontally (in norma facialis).</core1:description>
+        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HauserAndDeStefano1989"/>
+        <core1:description>At birth the [frontal] bone consists of two halves separated by a mediofrontal suture - the sutura interfrontalis. If this suture persists after the time of its normal obliteration it is named metopic suture. When observed from the anterios aspect the metopic suture passes downwards from the bregma to the nasion. [Hauser &amp; De Stefano 1989: 41]</core1:description>
+        <oboInOwl:hasExactSynonym>Caput cruciatum</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Frontal suture</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Metopism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Sutura frontalis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Sutura frontalis persistens</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Sutura interfrontalis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Sutura mediofrontalis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Sutura metopica</oboInOwl:hasExactSynonym>
         <rdfs:label>AssaySpecification.MetopicSuture</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2191,8 +2158,6 @@ The researcher is encouraged to specify his procedure in the Plan.FrSexEst.</cor
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.SupraorbitalForamen">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.SuperciliaryArch"/>
-        <core1:description>Unfortunately, the exact procedure of scoring the Superciliary Arches correctly is not thoroughly documented for the sex estimations of skulls from the Alexander-Ecker-Collection Freiburg.
-The researcher is encouraged to specify his procedure in the Plan.FrSexEst.</core1:description>
         <rdfs:label>AssaySpecification.SupraorbitalForamen</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2263,7 +2228,7 @@ Due to a lack of empirical evidence for a &quot;sufficient number of evaluated t
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#NonMetricTrait">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000067"/>
         <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SaundersAndRainey2008"/>
-        <core1:description>Nonmetric traits are morphological variants of anatomy, typically of a feature or of an anatomical landmark. They can be found in any tissue, but the hard tissues, tooth and bone, are of main interest to the biological anthropologist (Saunders &amp; Rainey 2008: 533).</core1:description>
+        <core1:description>Nonmetric traits are morphological variants of anatomy, typically of a feature or of an anatomical landmark. They can be found in any tissue, but the hard tissues, tooth and bone, are of main interest to the biological anthropologist. [Saunders &amp; Rainey 2008: 533]</core1:description>
         <rdfs:label>NonMetricTrait</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2450,9 +2415,8 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecificationOfDataToBeGeneratedInAnInvestigation.FrNonMetricTraits">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001892"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#DegreeOfSexualization"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum"/>
-        <core1:description>In each FrSexEst investigation two types of data are generated. There is one SexScore for each assay, thus a maximum of 14 different SexScores per StudyDesignExecution.FrSexEst. These SexScores are transformed into one DegreeOfSexualization.</core1:description>
+        <core1:description>In a FrNonMetricTraits investigation, an instance of PresenceDatum is generated for each assay carried out. Thus, there is a maximum of 11 presence data per examined skull.</core1:description>
         <rdfs:label>SpecificationOfDataToBeGeneratedInAnInvestigation.FrNonMetricTraits</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2462,7 +2426,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.ApicalBone">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only complete mandibles are potential Specimen.MandibleAsAWhole</core1:description>
+        <core1:description>Only a complete neurocranium is a potential Specimen.ApicalBone</core1:description>
         <rdfs:label>SpecimenCollectionObjective.ApicalBone</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2472,7 +2436,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.BregmaticBone">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only complete mandibles are potential Specimen.GonialAngle</core1:description>
+        <core1:description>Only a complete neurocranium is a potential Specimen.BregmaticBone</core1:description>
         <rdfs:label>SpecimenCollectionObjective.BregmaticBone</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2482,7 +2446,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.EnamelPearl">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only a set of complete frontal bone, complete zygomatics and complete maxillas is a potential Specimen.OrbitalAperture</core1:description>
+        <core1:description>Only a complete human tooth is a potential Specimen.EnamelPearl</core1:description>
         <rdfs:label>SpecimenCollectionObjective.EnamelPearl</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2492,7 +2456,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrontalForamen">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only a set of complete frontal and parietal bones is a potential Specimen.FrontalAndParietalEminences</core1:description>
+        <core1:description>Only a complete frontal bone is a potential Specimen.FrontalForamen</core1:description>
         <rdfs:label>SpecimenCollectionObjective.FrontalForamen</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2502,7 +2466,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.IncaBone">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only complete temporal bones are potential Specimen.MastoidProcess</core1:description>
+        <core1:description>Only a complete neurocranium is a potential Specimen.IncaBone</core1:description>
         <rdfs:label>SpecimenCollectionObjective.IncaBone</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2512,7 +2476,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.InfraorbitalForamen">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only complete occipital bones are potential Specimen.NuchalPlanum</core1:description>
+        <core1:description>Only a complete maxilla is a potential Specimen.InfraorbitalForamen</core1:description>
         <rdfs:label>SpecimenCollectionObjective.InfraorbitalForamen</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2522,7 +2486,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.InfraorbitalSuture">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only complete mandibles are potential Specimen.MylohyoidLine</core1:description>
+        <core1:description>Only a complete maxilla is a potential Specimen.InfraorbitalSuture</core1:description>
         <rdfs:label>SpecimenCollectionObjective.InfraorbitalSuture</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2532,7 +2496,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.MendosalSuture">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only complete mandibles are potential Specimen.MentalProtuberance</core1:description>
+        <core1:description>Only a complete occipital bone is a potential Specimen.MendosalSuture</core1:description>
         <rdfs:label>SpecimenCollectionObjective.MendosalSuture</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2542,7 +2506,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.MentalForamen">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only complete frontal bones are potential Specimen.SuperciliaryArch</core1:description>
+        <core1:description>Only a complete mandible is a potential Specimen.MentalForamen</core1:description>
         <rdfs:label>SpecimenCollectionObjective.MentalForamen</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2552,18 +2516,8 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.MetopicSuture">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only complete occipital bones are potential Specimen.ExternalOccipitalProtuberance</core1:description>
+        <core1:description>Only a complete frontal bone is a potential Specimen.MetopicSuture</core1:description>
         <rdfs:label>SpecimenCollectionObjective.MetopicSuture</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.SupramastoidCrest -->
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.SupramastoidCrest">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only complete temporal bones are potential Specimen.SupramastoidCrest</core1:description>
-        <rdfs:label>SpecimenCollectionObjective.SupramastoidCrest</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2572,28 +2526,8 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.SupraorbitalForamen">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only complete frontal bones are potential Specimen.Glabella</core1:description>
+        <core1:description>Only a complete frontal bone is a potential Specimen.SupraorbitalForamen</core1:description>
         <rdfs:label>SpecimenCollectionObjective.SupraorbitalForamen</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.ZygomaticProcess -->
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.ZygomaticProcess">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only complete temporal bones are potential Specimen.ZyomaticProcess</core1:description>
-        <rdfs:label>SpecimenCollectionObjective.ZygomaticProcess</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.Zygomatics -->
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.Zygomatics">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only complete zygomatics are potential Specimen.Zygomatics</core1:description>
-        <rdfs:label>SpecimenCollectionObjective.Zygomatics</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2727,8 +2661,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.MentalForamen"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.MetopicSuture"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.SupraorbitalForamen"/>
-        <core1:description>The StudyDesign.FrSexEst brings together all the information that is necessary for carrying out a FrSexEst investigation: what material is suitable and how it is selected, how and what kind of data are collected and how data are transformed afterwards.
-Furthermore, the general StudyDesign.FrSexEst is concretized as a plan which specifies how the StudyDesign.FrSexEst is applied to the material in a single investigation.</core1:description>
+        <core1:description>The StudyDesign.FrNonMetricTraits brings together all the information that is necessary for carrying out an investigation of the type FrNonMetricTraits.</core1:description>
         <rdfs:label>StudyDesign.FrNonMetricTraits</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2889,7 +2822,7 @@ A DegreeOfSexualization calculated from data items collected from material that 
 The DegreeOfSexualization is a rational number (therefore type xsd:float) ranging from-2 to +2.</core1:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum">
-        <core1:description>The outcome of the assays that are used in a FrSexEst investigation is stored as a data item of the type SexScore. There exists a subclass of SexScore for each assay.</core1:description>
+        <core1:description>The outcomes of the assays that are carried out in a FrNonMetricTraits investigation are stored as categorical data items of the type PresenceDatum. There exists a subclass of PresenceDatum for each assay to store even huge amounts of data properly.</core1:description>
     </rdf:Description>
 </rdf:RDF>
 
