@@ -2022,7 +2022,7 @@ Thus, each instance of StudyDesignExecution.FrNonMetricTraits corresponds to the
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.ApicalBone">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrontalAndParietalEminences"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.ApicalBone"/>
         <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HauserAndDeStefano1989"/>
         <core1:description>The point of junction of the sagittal suture with the occipital bone is called lambda and corresponds to the site of [...] the posterior or lesser fontanelle; there may occur one or more ossicle at lambda (fontanelle bones). [Hauser &amp; De Stefano 1989: 84]</core1:description>
         <oboInOwl:hasExactSynonym>Os lambdae</oboInOwl:hasExactSynonym>
@@ -2036,7 +2036,7 @@ Thus, each instance of StudyDesignExecution.FrNonMetricTraits corresponds to the
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.BregmaticBone">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.ExternalOccipitalProtuberance"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.BregmaticBone"/>
         <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HauserAndDeStefano1989"/>
         <core1:description>The point of junction between these three bones [frontal and parietals] approximately in the midline is called bregma and corresponds to the site of a membrane-filled gap in the skull of the fetus and newborn, the anterior or greater fontanelle [...] There may occur one or more ossicles at bregma (fontanelle bones) [...]. [Hauser &amp; De Stefano 1989: 84]</core1:description>
         <oboInOwl:hasExactSynonym>Ossicle et bregma</oboInOwl:hasExactSynonym>
@@ -2049,7 +2049,7 @@ Thus, each instance of StudyDesignExecution.FrNonMetricTraits corresponds to the
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.EnamelPearl">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.Glabella"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.EnamelPearl"/>
         <core1:description>A pearl of enamel on locations where enamel is usually not present, between the roots of a molar, for instance.</core1:description>
         <rdfs:label>AssaySpecification.EnamelPearl</rdfs:label>
     </owl:NamedIndividual>
@@ -2060,7 +2060,7 @@ Thus, each instance of StudyDesignExecution.FrNonMetricTraits corresponds to the
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrontalForamen">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.GonialAngle"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrontalForamen"/>
         <rdfs:label>AssaySpecification.FrontalForamen</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2070,7 +2070,7 @@ Thus, each instance of StudyDesignExecution.FrNonMetricTraits corresponds to the
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.IncaBone">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MandibleAsAWhole"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.IncaBone"/>
         <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HauserAndDeStefano1989"/>
         <core1:description>If an approximately transverse suture divides the occipital squama in the position of the highest nuchal line, the part above this suture is named a complete inca bone. If in addition to the transverse suture also one or more longitudinal or additional transverse sutures subdivide the inca bone, these conditions are called a bipartite, tripartite or multipartite inca bone. If however the transverse suture is incomplete and occurs in combination with one or two longitudinal suture limiting an area corresponding to a part of a partitioned inca bone only, the condition is named a partial inca bone. [Hauser &amp; De Stefano 1989: 99]</core1:description>
         <oboInOwl:hasExactSynonym>Interparietal bone (FMA)</oboInOwl:hasExactSynonym>
@@ -2084,7 +2084,7 @@ Thus, each instance of StudyDesignExecution.FrNonMetricTraits corresponds to the
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.InfraorbitalForamen">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MastoidProcess"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.InfraorbitalForamen"/>
         <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HauserAndDeStefano1989"/>
         <core1:description>The infraorbital foramen is situated on the external anterior surface of the maxilla below the infraorbital margin above the canine fossa. [Hauser &amp; De Stefano 1989: 70]</core1:description>
         <oboInOwl:hasExactSynonym>Foramen infraorbitale</oboInOwl:hasExactSynonym>
@@ -2097,7 +2097,7 @@ Thus, each instance of StudyDesignExecution.FrNonMetricTraits corresponds to the
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.InfraorbitalSuture">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MentalProtuberance"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.InfraorbitalSuture"/>
         <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HauserAndDeStefano1989"/>
         <core1:description>The infraorbital canal is situated in the floor of the orbit. It originates occasionally from the inferior orbital fissure but usually from a groove beginning there, which is covered by an osseus roof after a variable distance [...] The suture may appear along the total length of the canal or on its orbital or facial parts separately. [Hauser &amp; De Stefano 1989: 67]</core1:description>
         <oboInOwl:hasExactSynonym>Sutura infraorbitalis</oboInOwl:hasExactSynonym>
@@ -2110,7 +2110,7 @@ Thus, each instance of StudyDesignExecution.FrNonMetricTraits corresponds to the
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.MendosalSuture">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MylohyoidLine"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MendosalSuture"/>
         <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HauserAndDeStefano1989"/>
         <core1:description>On both lateral margins of the fetal occipital squama a fissure curving slightly upwards is visible. The remnant of this, the sutura mendosa, originates most frequently from the asterion, rarely below and very seldom above it. It is situated either a little above, or rarely in, the transverse groove of the cerebral surface of the occipital squama [...] This suture is not the same as the transverse occipital suture and never bisects the occipital squama totally into an upper and a lower part. The suture is generally of a simple pattern, while the transverse occipital suture is frequently rather complicated. [Hauser &amp; De Stefano 1989: 194]</core1:description>
         <oboInOwl:hasExactSynonym>Biasterionic suture</oboInOwl:hasExactSynonym>
@@ -2124,7 +2124,7 @@ Thus, each instance of StudyDesignExecution.FrNonMetricTraits corresponds to the
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.MentalForamen">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.NuchalPlanum"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MentalForamen"/>
         <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HauserAndDeStefano1989"/>
         <core1:description>On the external surface of each side of the mandible generally in the area below the premolars, and most frequently below the apex of the second premolar is situated the mental foramen. The foramen may vary with respect to its position, its shape and size, it may be double or multiple with varying distances between the apertures, and in rare instances may even be absent. [Hauser &amp; De Stefano 1989: 230]</core1:description>
         <oboInOwl:hasExactSynonym>Foramen mentale</oboInOwl:hasExactSynonym>
@@ -2137,7 +2137,7 @@ Thus, each instance of StudyDesignExecution.FrNonMetricTraits corresponds to the
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.MetopicSuture">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrSexEst.ZygomaticArch"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MetopicSuture"/>
         <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HauserAndDeStefano1989"/>
         <core1:description>At birth the [frontal] bone consists of two halves separated by a mediofrontal suture - the sutura interfrontalis. If this suture persists after the time of its normal obliteration it is named metopic suture. When observed from the anterios aspect the metopic suture passes downwards from the bregma to the nasion. [Hauser &amp; De Stefano 1989: 41]</core1:description>
         <oboInOwl:hasExactSynonym>Caput cruciatum</oboInOwl:hasExactSynonym>
@@ -2157,7 +2157,7 @@ Thus, each instance of StudyDesignExecution.FrNonMetricTraits corresponds to the
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.SupraorbitalForamen">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.SuperciliaryArch"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.SupraorbitalForamen"/>
         <rdfs:label>AssaySpecification.SupraorbitalForamen</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2272,7 +2272,7 @@ Due to a lack of empirical evidence for a &quot;sufficient number of evaluated t
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.ApicalBone">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.ExternalOccipitalProtuberance"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.ApicalBone"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.ApicalBone"/>
         <core1:description>An instance technically required for the automatic prescreening of potential specimen.
 See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
@@ -2285,7 +2285,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.BregmaticBone">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrontalAndParietalEminences"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.BregmaticBone"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.BregmaticBone"/>
         <core1:description>An instance technically required for the automatic prescreening of potential specimen.
 See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
@@ -2298,7 +2298,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.EnamelPearl">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.Glabella"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.EnamelPearl"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.EnamelPearl"/>
         <core1:description>An instance technically required for the automatic prescreening of potential specimen.
 See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
@@ -2311,7 +2311,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.FrontalForamen">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.GonialAngle"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.FrontalForamen"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.FrontalForamen"/>
         <core1:description>An instance technically required for the automatic prescreening of potential specimen.
 See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
@@ -2324,7 +2324,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.IncaBone">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MandibleAsAWhole"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.IncaBone"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.IncaBone"/>
         <core1:description>An instance technically required for the automatic prescreening of potential specimen.
 See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
@@ -2337,7 +2337,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.InfraorbitalForamen">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MastoidProcess"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.InfraorbitalForamen"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.InfraorbitalForamen"/>
         <core1:description>An instance technically required for the automatic prescreening of potential specimen.
 See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
@@ -2350,7 +2350,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.InfraorbitalSuture">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MentalProtuberance"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.InfraorbitalSuture"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.InfraorbitalSuture"/>
         <core1:description>An instance technically required for the automatic prescreening of potential specimen.
 See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
@@ -2363,7 +2363,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.MendosalSuture">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MylohyoidLine"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MendosalSuture"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.MendosalSuture"/>
         <core1:description>An instance technically required for the automatic prescreening of potential specimen.
 See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
@@ -2376,7 +2376,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.MentalForamen">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.NuchalPlanum"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MentalForamen"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.MentalForamen"/>
         <core1:description>An instance technically required for the automatic prescreening of potential specimen.
 See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
@@ -2389,7 +2389,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.MetopicSuture">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.OrbitalAperture"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MetopicSuture"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.MetopicSuture"/>
         <core1:description>An instance technically required for the automatic prescreening of potential specimen.
 See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
@@ -2402,7 +2402,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.SupraorbitalForamen">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.SuperciliaryArch"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.SupraorbitalForamen"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.SupraorbitalForamen"/>
         <core1:description>An instance technically required for the automatic prescreening of potential specimen.
 See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
