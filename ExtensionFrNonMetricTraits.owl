@@ -2044,7 +2044,7 @@ Thus, each instance of StudyDesignExecution.FrNonMetricTraits corresponds to the
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.BiasterionicSuture">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MendosalSuture"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.BiasterionicSuture"/>
         <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HauserAndDeStefano1989"/>
         <core1:description>On both lateral margins of the fetal occipital squama a fissure curving slightly upwards is visible. The remnant of this, the sutura mendosa, originates most frequently from the asterion, rarely below and very seldom above it. It is situated either a little above, or rarely in, the transverse groove of the cerebral surface of the occipital squama [...] This suture is not the same as the transverse occipital suture and never bisects the occipital squama totally into an upper and a lower part. The suture is generally of a simple pattern, while the transverse occipital suture is frequently rather complicated. [Hauser &amp; De Stefano 1989: 194]</core1:description>
         <oboInOwl:hasExactSynonym>Mendosal suture</oboInOwl:hasExactSynonym>
@@ -2155,7 +2155,7 @@ Foramina located in the orbital region of the frontal bone are documented as &qu
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.OssicleAtBregma">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.BregmaticBone"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.OssicleAtBregma"/>
         <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HauserAndDeStefano1989"/>
         <core1:description>The point of junction between these three bones [frontal and parietals] approximately in the midline is called bregma and corresponds to the site of a membrane-filled gap in the skull of the fetus and newborn, the anterior or greater fontanelle [...] There may occur one or more ossicles at bregma (fontanelle bones) [...]. [Hauser &amp; De Stefano 1989: 84]</core1:description>
         <oboInOwl:hasExactSynonym>Ossicle et bregma</oboInOwl:hasExactSynonym>
@@ -2168,7 +2168,7 @@ Foramina located in the orbital region of the frontal bone are documented as &qu
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.OssicleAtLambda">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.ApicalBone"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.OssicleAtLambda"/>
         <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HauserAndDeStefano1989"/>
         <core1:description>The point of junction of the sagittal suture with the occipital bone is called lambda and corresponds to the site of [...] the posterior or lesser fontanelle; there may occur one or more ossicle at lambda (fontanelle bones). [Hauser &amp; De Stefano 1989: 84]</core1:description>
         <oboInOwl:hasExactSynonym>Os lambdae</oboInOwl:hasExactSynonym>
@@ -2303,7 +2303,7 @@ Due to a lack of empirical evidence for a &quot;sufficient number of evaluated t
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.BiasterionicSuture">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MendosalSuture"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.BiasterionicSuture"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.BiasterionicSuture"/>
         <core1:description>An instance technically required for the automatic prescreening of potential specimen.
 See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
@@ -2407,7 +2407,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.OssicleAtBregma">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.BregmaticBone"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.OssicleAtBregma"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.OssicleAtBregma"/>
         <core1:description>An instance technically required for the automatic prescreening of potential specimen.
 See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
@@ -2420,7 +2420,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.OssicleAtLambda">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.ApicalBone"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.OssicleAtLambda"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.OssicleAtLambda"/>
         <core1:description>An instance technically required for the automatic prescreening of potential specimen.
 See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
