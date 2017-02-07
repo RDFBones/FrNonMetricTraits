@@ -412,9 +412,9 @@
     
 
 
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Assay.ApicalBone -->
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Assay.BiasterionicSuture -->
 
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.ApicalBone">
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.BiasterionicSuture">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -426,44 +426,18 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.ApicalBone"/>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.BiasterionicSuture"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.ApicalBone"/>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.BiasterionicSuture"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Assay.BregmaticBone -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.BregmaticBone">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#NonMetricTrait"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.BregmaticBone"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.BregmaticBone"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <core1:description>Do not add a value to the instance of PresenceDatum.MendosalSuture.
+Just select a LabelForPresence.</core1:description>
     </owl:Class>
     
 
@@ -608,34 +582,6 @@
     
 
 
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MendosalSuture -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MendosalSuture">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#NonMetricTrait"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.MendosalSuture"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.MendosalSuture"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
     <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MentalForamen -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MentalForamen">
@@ -692,6 +638,76 @@
     
 
 
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Assay.OssicleAtBregma -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.OssicleAtBregma">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#NonMetricTrait"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.OssicleAtBregma"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.OssicleAtBregma"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <core1:description>Add one of the following values to the instance of PresenceDatum.OssicleAtBregma in case of:
+
+1: ossicle located centrically at bregma (&quot;Os bregmaticum&quot;)
+
+1: ossicle at bregma protruding into the frontal (&quot;Os bregm. front.&quot;)
+
+2: ossicle at bregma protruding into the parietals (&quot;Os bregm. pariet.&quot;)</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Assay.OssicleAtLambda -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.OssicleAtLambda">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#NonMetricTrait"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.OssicleAtLambda"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.OssicleAtLambda"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <core1:description>Add one of the following values to the instance of PresenceDatum.OssicleAtLambda in case of:
+
+1: ossicle at lamda protruding mainly into the occipital (&quot;Os lambdae&quot;)
+
+2: ossicle at lambda protruding into the parietals (&quot;Os interparietalia&quot;)
+
+3: ossicle at lambda of triangular shape protruding into the occipital (&quot;Os apicis&quot;)</core1:description>
+    </owl:Class>
+    
+
+
     <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Assay.SupraorbitalForamen -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.SupraorbitalForamen">
@@ -727,13 +743,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.ApicalBone"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.BregmaticBone"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.BiasterionicSuture"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -769,12 +779,6 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.MendosalSuture"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.MentalForamen"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -782,6 +786,18 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.MetopicSuture"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.OssicleAtBregma"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.OssicleAtLambda"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -822,14 +838,7 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.ApicalBone"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.BregmaticBone"/>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.BiasterionicSuture"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -871,13 +880,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.MendosalSuture"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
                 <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.MentalForamen"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -886,6 +888,20 @@
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
                 <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.MetopicSuture"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.OssicleAtBregma"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.OssicleAtLambda"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1056,44 +1072,11 @@ Add comments or documents to this instance of Plan.NonMetricTraits to specify ho
     
 
 
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.ApicalBone -->
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.BiasterionicSuture -->
 
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.ApicalBone">
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.BiasterionicSuture">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#hasValue"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForPresence to the instance of this class.
-The researcher must assign a value to this instance to specify which characteristic of the evaluated trait is present:
-
-1: ossicle at lamda protruding mainly into the occipital (&quot;Os lambdae&quot;)
-
-2: ossicle at lambda protruding frontally (&quot;Os interparietalia&quot;)
-
-3: ossicle at lambda of triangular shape protruding into the occipital (&quot;Os apicis&quot;)</core1:description>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.BregmaticBone -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.BregmaticBone">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#hasValue"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForPresence to the instance of this class.
-The researcher must assign a value to this instance to specify which characteristic of the evaluated trait is present:
-
-1: bregmatic bone protruding into the frontal
-
-2: bregmatic bone protruding into the parietals</core1:description>
+        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForPresence to the instance of this class.</core1:description>
     </owl:Class>
     
 
@@ -1163,15 +1146,6 @@ The researcher must assign a value to this instance to specify which characteris
     
 
 
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.MendosalSuture -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.MendosalSuture">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum"/>
-        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForPresence to the instance of this class.</core1:description>
-    </owl:Class>
-    
-
-
     <!-- http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.MentalForamen -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.MentalForamen">
@@ -1201,6 +1175,50 @@ The researcher must assign a value to this instance to specify which characteris
     
 
 
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.OssicleAtBregma -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.OssicleAtBregma">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#hasValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForPresence to the instance of this class.
+The researcher must assign a value to this instance to specify which characteristic of the evaluated trait is present:
+
+1: ossicle located centrically at bregma (&quot;Os bregmaticum&quot;)
+
+1: ossicle at bregma protruding into the frontal (&quot;Os bregm. front.&quot;)
+
+2: ossicle at bregma protruding into the parietals (&quot;Os bregm. pariet.&quot;)</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.OssicleAtLambda -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.OssicleAtLambda">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#hasValue"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForPresence to the instance of this class.
+The researcher must assign a value to this instance to specify which characteristic of the evaluated trait is present:
+
+1: ossicle at lamda protruding mainly into the occipital (&quot;Os lambdae&quot;)
+
+2: ossicle at lambda protruding into the parietals (&quot;Os interparietalia&quot;)
+
+3: ossicle at lambda of triangular shape protruding into the occipital (&quot;Os apicis&quot;)</core1:description>
+    </owl:Class>
+    
+
+
     <!-- http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.SupraorbitalForamen -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.SupraorbitalForamen">
@@ -1226,25 +1244,9 @@ The class which SkeletalMaterialSpecification.FrNonMetricTraits is about defines
     
 
 
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.ApicalBone -->
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.BiasterionicSuture -->
 
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.ApicalBone">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#NonMetricTrait"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrNonMetricTraits).
-Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.BregmaticBone -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.BregmaticBone">
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.BiasterionicSuture">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -1338,22 +1340,6 @@ Therefore, each instance of this class is a suitable input for the corresponding
     
 
 
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.MendosalSuture -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.MendosalSuture">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#NonMetricTrait"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrNonMetricTraits).
-Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
-    </owl:Class>
-    
-
-
     <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.MentalForamen -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.MentalForamen">
@@ -1386,6 +1372,38 @@ Therefore, each instance of this class is a suitable input for the corresponding
     
 
 
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.OssicleAtBregma -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.OssicleAtBregma">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#NonMetricTrait"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrNonMetricTraits).
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.OssicleAtLambda -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.OssicleAtLambda">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#NonMetricTrait"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrNonMetricTraits).
+Therefore, each instance of this class is a suitable input for the corresponding assay.</core1:description>
+    </owl:Class>
+    
+
+
     <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.SupraorbitalForamen -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.SupraorbitalForamen">
@@ -1402,54 +1420,31 @@ Therefore, each instance of this class is a suitable input for the corresponding
     
 
 
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.ApicalBone -->
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.BiasterionicSuture -->
 
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.ApicalBone">
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.BiasterionicSuture">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_53672"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfOccipitalBone"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.ApicalBone"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.BiasterionicSuture"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.ApicalBone"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.BiasterionicSuture"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.BregmaticBone -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.BregmaticBone">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_53672"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.BregmaticBone"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.BregmaticBone"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the RDFBones software which automatically prescreens all skeletal inventories for potential input.
+A potential input satisfies the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrNonMetricTraits.</core1:description>
     </owl:Class>
     
 
@@ -1578,32 +1573,6 @@ Therefore, each instance of this class is a suitable input for the corresponding
     
 
 
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MendosalSuture -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MendosalSuture">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfOccipitalBone"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.MendosalSuture"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.MendosalSuture"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
     <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MentalForamen -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MentalForamen">
@@ -1656,6 +1625,64 @@ Therefore, each instance of this class is a suitable input for the corresponding
     
 
 
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.OssicleAtBregma -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.OssicleAtBregma">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_53672"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.OssicleAtBregma"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.OssicleAtBregma"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the RDFBones software which automatically prescreens all skeletal inventories for potential input.
+A potential input satisfies the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrNonMetricTraits.</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.OssicleAtLambda -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.OssicleAtLambda">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_53672"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.OssicleAtLambda"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.OssicleAtLambda"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the RDFBones software which automatically prescreens all skeletal inventories for potential input.
+A potential input satisfies the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrNonMetricTraits.</core1:description>
+    </owl:Class>
+    
+
+
     <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.SupraorbitalForamen -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.SupraorbitalForamen">
@@ -1689,13 +1716,7 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.ApicalBone"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.BregmaticBone"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.BiasterionicSuture"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1731,12 +1752,6 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MendosalSuture"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MentalForamen"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1749,19 +1764,25 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.OssicleAtBregma"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.OssicleAtLambda"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.SupraorbitalForamen"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.ApicalBone"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.BregmaticBone"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.BiasterionicSuture"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1797,12 +1818,6 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MendosalSuture"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MentalForamen"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1810,6 +1825,18 @@ Therefore, each instance of this class is a suitable input for the corresponding
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MetopicSuture"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.OssicleAtBregma"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.OssicleAtLambda"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2013,29 +2040,16 @@ Thus, each instance of StudyDesignExecution.FrNonMetricTraits corresponds to the
     
 
 
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.ApicalBone -->
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.BiasterionicSuture -->
 
-    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.ApicalBone">
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.BiasterionicSuture">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.ApicalBone"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MendosalSuture"/>
         <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HauserAndDeStefano1989"/>
-        <core1:description>The point of junction of the sagittal suture with the occipital bone is called lambda and corresponds to the site of [...] the posterior or lesser fontanelle; there may occur one or more ossicle at lambda (fontanelle bones). [Hauser &amp; De Stefano 1989: 84]</core1:description>
-        <oboInOwl:hasExactSynonym>Os lambdae</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Ossicle at lambda</oboInOwl:hasExactSynonym>
-        <rdfs:label>AssaySpecification.ApicalBone</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.BregmaticBone -->
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.BregmaticBone">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.BregmaticBone"/>
-        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HauserAndDeStefano1989"/>
-        <core1:description>The point of junction between these three bones [frontal and parietals] approximately in the midline is called bregma and corresponds to the site of a membrane-filled gap in the skull of the fetus and newborn, the anterior or greater fontanelle [...] There may occur one or more ossicles at bregma (fontanelle bones) [...]. [Hauser &amp; De Stefano 1989: 84]</core1:description>
-        <oboInOwl:hasExactSynonym>Ossicle et bregma</oboInOwl:hasExactSynonym>
-        <rdfs:label>AssaySpecification.BregmaticBone</rdfs:label>
+        <core1:description>On both lateral margins of the fetal occipital squama a fissure curving slightly upwards is visible. The remnant of this, the sutura mendosa, originates most frequently from the asterion, rarely below and very seldom above it. It is situated either a little above, or rarely in, the transverse groove of the cerebral surface of the occipital squama [...] This suture is not the same as the transverse occipital suture and never bisects the occipital squama totally into an upper and a lower part. The suture is generally of a simple pattern, while the transverse occipital suture is frequently rather complicated. [Hauser &amp; De Stefano 1989: 194]</core1:description>
+        <oboInOwl:hasExactSynonym>Mendosal suture</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Sutura mendosa</oboInOwl:hasExactSynonym>
+        <rdfs:label>AssaySpecification.BiasterionicSuture</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2057,14 +2071,8 @@ Thus, each instance of StudyDesignExecution.FrNonMetricTraits corresponds to the
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.FrontalForamen"/>
         <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HauserAndDeStefano1989"/>
-        <core1:description>In sequence from medial to lateral the foramina of the frontal bone are:
-
-a) supratrochlear foramen
-b) medial supraorbital foramen [frontal foramen, foramen frontale (BNA)]
-c) supraorbital lateral foramen
-
-[cf. Hauser &amp; De Stefano 1989: 50f]</core1:description>
-        <oboInOwl:hasExactSynonym>Medial supraorbital foramen</oboInOwl:hasExactSynonym>
+        <core1:description>A foramen or several foramina may be present on the frontal bone.
+Foramina located in the orbital region of the frontal bone are documented as &quot;supraorbital foramina&quot; and not as &quot;frontal foramina&quot;.</core1:description>
         <rdfs:label>AssaySpecification.FrontalForamen</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2110,20 +2118,6 @@ c) supraorbital lateral foramen
     
 
 
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.MendosalSuture -->
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.MendosalSuture">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MendosalSuture"/>
-        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HauserAndDeStefano1989"/>
-        <core1:description>On both lateral margins of the fetal occipital squama a fissure curving slightly upwards is visible. The remnant of this, the sutura mendosa, originates most frequently from the asterion, rarely below and very seldom above it. It is situated either a little above, or rarely in, the transverse groove of the cerebral surface of the occipital squama [...] This suture is not the same as the transverse occipital suture and never bisects the occipital squama totally into an upper and a lower part. The suture is generally of a simple pattern, while the transverse occipital suture is frequently rather complicated. [Hauser &amp; De Stefano 1989: 194]</core1:description>
-        <oboInOwl:hasExactSynonym>Biasterionic suture</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Sutura mendosa</oboInOwl:hasExactSynonym>
-        <rdfs:label>AssaySpecification.MendosalSuture</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.MentalForamen -->
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.MentalForamen">
@@ -2157,19 +2151,44 @@ c) supraorbital lateral foramen
     
 
 
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.OssicleAtBregma -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.OssicleAtBregma">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.BregmaticBone"/>
+        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HauserAndDeStefano1989"/>
+        <core1:description>The point of junction between these three bones [frontal and parietals] approximately in the midline is called bregma and corresponds to the site of a membrane-filled gap in the skull of the fetus and newborn, the anterior or greater fontanelle [...] There may occur one or more ossicles at bregma (fontanelle bones) [...]. [Hauser &amp; De Stefano 1989: 84]</core1:description>
+        <oboInOwl:hasExactSynonym>Ossicle et bregma</oboInOwl:hasExactSynonym>
+        <rdfs:label>AssaySpecification.OssicleAtBregma</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.OssicleAtLambda -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.OssicleAtLambda">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.ApicalBone"/>
+        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HauserAndDeStefano1989"/>
+        <core1:description>The point of junction of the sagittal suture with the occipital bone is called lambda and corresponds to the site of [...] the posterior or lesser fontanelle; there may occur one or more ossicle at lambda (fontanelle bones). [Hauser &amp; De Stefano 1989: 84]</core1:description>
+        <oboInOwl:hasExactSynonym>Os lambdae</oboInOwl:hasExactSynonym>
+        <rdfs:label>AssaySpecification.OssicleAtLambda</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.SupraorbitalForamen -->
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.SupraorbitalForamen">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.SupraorbitalForamen"/>
-        <core1:description>In sequence from medial to lateral the foramina of the frontal bone are:
+        <core1:description>According to Hauser &amp; De Stefano 1989: 50f, in sequence from medial to lateral the foramina of the frontal bone are:
 
 a) supratrochlear foramen
 b) medial supraorbital foramen
-c) supraorbital lateral foramen [foramen supraorbitale (BNA)]
+c) supraorbital lateral foramen
 
-[cf. Hauser &amp; De Stefano 1989: 50f]</core1:description>
-        <oboInOwl:hasExactSynonym>Supraorbital lateral foramen</oboInOwl:hasExactSynonym>
+In FrNonMetricTraits, all these foramina are subsumed under &quot;supraorbital foramina&quot;.</core1:description>
         <rdfs:label>AssaySpecification.SupraorbitalForamen</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2280,28 +2299,15 @@ Due to a lack of empirical evidence for a &quot;sufficient number of evaluated t
     
 
 
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.ApicalBone -->
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.BiasterionicSuture -->
 
-    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.ApicalBone">
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.BiasterionicSuture">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.ApicalBone"/>
-        <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.ApicalBone"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MendosalSuture"/>
+        <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.BiasterionicSuture"/>
         <core1:description>An instance technically required for the automatic prescreening of potential specimen.
 See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
-        <rdfs:label>SkeletalMaterialRequirement.ApicalBone</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.BregmaticBone -->
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.BregmaticBone">
-        <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.BregmaticBone"/>
-        <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.BregmaticBone"/>
-        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
-See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
-        <rdfs:label>SkeletalMaterialRequirement.BregmaticBone</rdfs:label>
+        <rdfs:label>SkeletalMaterialRequirement.BiasterionicSuture</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2371,19 +2377,6 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
     
 
 
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.MendosalSuture -->
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.MendosalSuture">
-        <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MendosalSuture"/>
-        <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.MendosalSuture"/>
-        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
-See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
-        <rdfs:label>SkeletalMaterialRequirement.MendosalSuture</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.MentalForamen -->
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.MentalForamen">
@@ -2406,6 +2399,32 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
         <core1:description>An instance technically required for the automatic prescreening of potential specimen.
 See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
         <rdfs:label>SkeletalMaterialRequirement.MetopicSuture</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.OssicleAtBregma -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.OssicleAtBregma">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.BregmaticBone"/>
+        <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.OssicleAtBregma"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
+See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
+        <rdfs:label>SkeletalMaterialRequirement.OssicleAtBregma</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.OssicleAtLambda -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.OssicleAtLambda">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.ApicalBone"/>
+        <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.OssicleAtLambda"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
+See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
+        <rdfs:label>SkeletalMaterialRequirement.OssicleAtLambda</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2434,22 +2453,12 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
     
 
 
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.ApicalBone -->
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.BiasterionicSuture -->
 
-    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.ApicalBone">
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.BiasterionicSuture">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only a complete neurocranium is a potential Specimen.ApicalBone</core1:description>
-        <rdfs:label>SpecimenCollectionObjective.ApicalBone</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.BregmaticBone -->
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.BregmaticBone">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only a complete neurocranium is a potential Specimen.BregmaticBone</core1:description>
-        <rdfs:label>SpecimenCollectionObjective.BregmaticBone</rdfs:label>
+        <core1:description>Only a complete occipital bone is a potential Specimen.BiasterionicSuture</core1:description>
+        <rdfs:label>SpecimenCollectionObjective.BiasterionicSuture</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2504,16 +2513,6 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
     
 
 
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.MendosalSuture -->
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.MendosalSuture">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only a complete occipital bone is a potential Specimen.MendosalSuture</core1:description>
-        <rdfs:label>SpecimenCollectionObjective.MendosalSuture</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.MentalForamen -->
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.MentalForamen">
@@ -2530,6 +2529,26 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
         <core1:description>Only a complete frontal bone is a potential Specimen.MetopicSuture</core1:description>
         <rdfs:label>SpecimenCollectionObjective.MetopicSuture</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.OssicleAtBregma -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.OssicleAtBregma">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <core1:description>Only a complete neurocranium is a potential Specimen.OssicleAtBregma</core1:description>
+        <rdfs:label>SpecimenCollectionObjective.OssicleAtBregma</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.OssicleAtLambda -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.OssicleAtLambda">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <core1:description>Only a complete neurocranium is a potential Specimen.OssicleAtLambda</core1:description>
+        <rdfs:label>SpecimenCollectionObjective.OssicleAtLambda</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2705,39 +2724,39 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#StudyDesign.FrNonMetricTraits">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#AlexanderEckerCollectionDataEntryForm.FrNonMetricTraits"/>
-        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.ApicalBone"/>
-        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.BregmaticBone"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.BiasterionicSuture"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.EnamelPearl"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.FrontalForamen"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.IncaBone"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.InfraorbitalForamen"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.InfraorbitalSuture"/>
-        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.MendosalSuture"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.MentalForamen"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.MetopicSuture"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.OssicleAtBregma"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.OssicleAtLambda"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.SupraorbitalForamen"/>
-        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.ApicalBone"/>
-        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.BregmaticBone"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.BiasterionicSuture"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.EnamelPearl"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.FrontalForamen"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.IncaBone"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.InfraorbitalForamen"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.InfraorbitalSuture"/>
-        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.MendosalSuture"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.MentalForamen"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.MetopicSuture"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.OssicleAtBregma"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.OssicleAtLambda"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.SupraorbitalForamen"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecificationOfDataToBeGeneratedInAnInvestigation.FrNonMetricTraits"/>
-        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.ApicalBone"/>
-        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.BregmaticBone"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.BiasterionicSuture"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.EnamelPearl"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrontalForamen"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.IncaBone"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.InfraorbitalForamen"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.InfraorbitalSuture"/>
-        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.MendosalSuture"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.MentalForamen"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.MetopicSuture"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.OssicleAtBregma"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.OssicleAtLambda"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.SupraorbitalForamen"/>
         <core1:description>The StudyDesign.FrNonMetricTraits brings together all the information that is necessary for carrying out an investigation of the type FrNonMetricTraits.</core1:description>
         <rdfs:label>StudyDesign.FrNonMetricTraits</rdfs:label>
@@ -2753,26 +2772,14 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
     
 
 
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.ApicalBone -->
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.BiasterionicSuture -->
 
-    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.ApicalBone">
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.BiasterionicSuture">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
         <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
         <core1:description>An instance technically required for the automatic prescreening of potential specimen.
 It is used to determine that the specified input of the corresponding SpecimenCollectionProcess is a complete bone or set of complete bones.</core1:description>
-        <rdfs:label>ValueSpecification.ApicalBone</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.BregmaticBone -->
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.BregmaticBone">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
-        <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
-        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
-It is used to determine that the specified input of the corresponding SpecimenCollectionProcess is a complete bone or set of complete bones.</core1:description>
-        <rdfs:label>ValueSpecification.BregmaticBone</rdfs:label>
+        <rdfs:label>ValueSpecification.BiasterionicSuture</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2837,18 +2844,6 @@ It is used to determine that the specified input of the corresponding SpecimenCo
     
 
 
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.MendosalSuture -->
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.MendosalSuture">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
-        <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
-        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
-It is used to determine that the specified input of the corresponding SpecimenCollectionProcess is a complete bone or set of complete bones.</core1:description>
-        <rdfs:label>ValueSpecification.MendosalSuture</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.MentalForamen -->
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.MentalForamen">
@@ -2873,6 +2868,30 @@ It is used to determine that the specified input of the corresponding SpecimenCo
     
 
 
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.OssicleAtBregma -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.OssicleAtBregma">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
+        <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
+It is used to determine that the specified input of the corresponding SpecimenCollectionProcess is a complete bone or set of complete bones.</core1:description>
+        <rdfs:label>ValueSpecification.OssicleAtBregma</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.OssicleAtLambda -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.OssicleAtLambda">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
+        <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
+It is used to determine that the specified input of the corresponding SpecimenCollectionProcess is a complete bone or set of complete bones.</core1:description>
+        <rdfs:label>ValueSpecification.OssicleAtLambda</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.SupraorbitalForamen -->
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.SupraorbitalForamen">
@@ -2893,22 +2912,6 @@ It is used to determine that the specified input of the corresponding SpecimenCo
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.ApicalBone">
-        <core1:description>Add one of the following values to the instance of PresenceDatum.ApicalBone in case of:
-
-1: ossicle at lamda protruding mainly into the occipital (&quot;Os lambdae&quot;)
-
-2: ossicle at lambda protruding frontally (&quot;Os interparietalia&quot;)
-
-3: ossicle at lambda of triangular shape protruding into the occipital (&quot;Os apicis&quot;)</core1:description>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.BregmaticBone">
-        <core1:description>Add one of the following values to the instance of PresenceDatum.BregmaticBone in case of:
-
-1: bregmatic bone protruding into the frontal
-
-2: bregmatic bone protruding into the parietals</core1:description>
-    </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.EnamelPearl">
         <core1:description>Please specify the location of the enamel pearl in a comment.
 Do not add a value to the instance of PresenceDatum.EnamelPearl.
@@ -2921,9 +2924,11 @@ Just select a LabelForPresence.</core1:description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.IncaBone">
         <core1:description>Please add one of the following values to the instance of PresenceDatum.IncaBone in case of:
 
-1: partite inca bone
+1: complete inca bone
 
-2: partial inca bone</core1:description>
+2: complete partite inca bone
+
+3: partial inca bone</core1:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.InfraorbitalForamen">
         <core1:description>Add the following value to the instance of PresenceDatum.InfraorbitalForamen in the case of:
@@ -2932,10 +2937,6 @@ Just select a LabelForPresence.</core1:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.InfraorbitalSuture">
         <core1:description>Do not add a value to the instance of PresenceDatum.InfraorbitalSuture.
-Just select a LabelForPresence.</core1:description>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MendosalSuture">
-        <core1:description>Do not add a value to the instance of PresenceDatum.MendosalSuture.
 Just select a LabelForPresence.</core1:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MentalForamen">
@@ -2962,16 +2963,6 @@ The DegreeOfSexualization is a rational number (therefore type xsd:float) rangin
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum">
         <core1:description>The outcomes of the assays that are carried out in a FrNonMetricTraits investigation are stored as categorical data items of the type PresenceDatum. There exists a subclass of PresenceDatum for each assay to store even huge amounts of data properly.</core1:description>
     </rdf:Description>
-    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.ApicalBone">
-        <core1:description>The input of this SpecimenCollectionProcess is determined by the RDFBones software which automatically prescreens all skeletal inventories for potential input.
-A potential input satisfies the corresponding SpecimenCollectionObjective.
-The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrNonMetricTraits.</core1:description>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.BregmaticBone">
-        <core1:description>The input of this SpecimenCollectionProcess is determined by the RDFBones software which automatically prescreens all skeletal inventories for potential input.
-A potential input satisfies the corresponding SpecimenCollectionObjective.
-The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrNonMetricTraits.</core1:description>
-    </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.EnamelPearl">
         <core1:description>The input of this SpecimenCollectionProcess is determined by the RDFBones software which automatically prescreens all skeletal inventories for potential input.
 A potential input satisfies the corresponding SpecimenCollectionObjective.
@@ -2993,11 +2984,6 @@ A potential input satisfies the corresponding SpecimenCollectionObjective.
 The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrNonMetricTraits.</core1:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.InfraorbitalSuture">
-        <core1:description>The input of this SpecimenCollectionProcess is determined by the RDFBones software which automatically prescreens all skeletal inventories for potential input.
-A potential input satisfies the corresponding SpecimenCollectionObjective.
-The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrNonMetricTraits.</core1:description>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MendosalSuture">
         <core1:description>The input of this SpecimenCollectionProcess is determined by the RDFBones software which automatically prescreens all skeletal inventories for potential input.
 A potential input satisfies the corresponding SpecimenCollectionObjective.
 The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrNonMetricTraits.</core1:description>
