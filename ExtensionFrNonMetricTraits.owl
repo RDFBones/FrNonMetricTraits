@@ -604,8 +604,6 @@
                 <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.LambdoidOssicle"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>Do not add a value to the instance of PresenceDatum.MendosalSuture.
-Just select a LabelForPresence.</core1:description>
     </owl:Class>
     
 
@@ -746,8 +744,6 @@ Just select a LabelForPresence.</core1:description>
                 <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.ParietalForamen"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>Do not add a value to the instance of PresenceDatum.ParietalForamen.
-Just select a LabelForPresence.</core1:description>
     </owl:Class>
     
 
@@ -776,8 +772,6 @@ Just select a LabelForPresence.</core1:description>
                 <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.PartitionedTemporalSquama"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>Do not add a value to the instance of PresenceDatum.MendosalSuture.
-Just select a LabelForPresence.</core1:description>
     </owl:Class>
     
 
@@ -1198,7 +1192,8 @@ Add comments or documents to this instance of Plan.NonMetricTraits to specify ho
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#hasValue"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForPresence to the instance of this class.
@@ -1218,7 +1213,8 @@ The researcher must assign a value to this instance to specify which characteris
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#hasValue"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForPresence to the instance of this class.
@@ -1254,7 +1250,8 @@ The researcher must assign a value to this instance to specify which characteris
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#hasValue"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForPresence to the instance of this class.
@@ -1283,7 +1280,8 @@ The researcher must assign a value to this instance to specify which characteris
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#hasValue"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForPresence to the instance of this class.
@@ -1305,7 +1303,8 @@ The researcher must assign a value to this instance to specify which characteris
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#hasValue"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForPresence to the instance of this class.
@@ -1760,9 +1759,6 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.LambdoidOssicle"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>The input of this SpecimenCollectionProcess is determined by the RDFBones software which automatically prescreens all skeletal inventories for potential input.
-A potential input satisfies the corresponding SpecimenCollectionObjective.
-The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrNonMetricTraits.</core1:description>
     </owl:Class>
     
 
@@ -1893,9 +1889,6 @@ The output of the SpecimenCollectionProcess (=specimen) is determined by the res
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.ParietalForamen"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>The input of this SpecimenCollectionProcess is determined by the RDFBones software which automatically prescreens all skeletal inventories for potential input.
-A potential input satisfies the corresponding SpecimenCollectionObjective.
-The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrNonMetricTraits.</core1:description>
     </owl:Class>
     
 
@@ -1922,9 +1915,6 @@ The output of the SpecimenCollectionProcess (=specimen) is determined by the res
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.PartitionedTemporalSquama"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <core1:description>The input of this SpecimenCollectionProcess is determined by the RDFBones software which automatically prescreens all skeletal inventories for potential input.
-A potential input satisfies the corresponding SpecimenCollectionObjective.
-The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrNonMetricTraits.</core1:description>
     </owl:Class>
     
 
@@ -2250,6 +2240,12 @@ Thus, each instance of StudyDesignExecution.FrNonMetricTraits corresponds to the
     
 
 
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Assay.LambdoidOssicle -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.LambdoidOssicle"/>
+    
+
+
     <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MandibleAsAWhole -->
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MandibleAsAWhole"/>
@@ -2307,6 +2303,18 @@ Thus, each instance of StudyDesignExecution.FrNonMetricTraits corresponds to the
     <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Assay.OssicleAtLambda -->
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.OssicleAtLambda"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Assay.ParietalForamen -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.ParietalForamen"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#Assay.PartitionedTemporalSquama -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.PartitionedTemporalSquama"/>
     
 
 
@@ -2422,7 +2430,7 @@ Foramina located in the orbital region of the frontal bone are documented as &qu
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.LambdoidOssicle">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HauserAndDeStefano1989"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.LambdoidOssicle"/>
         <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HauserAndDeStefano1989"/>
         <core1:description>The lambdoid suture consists of two obliquely aligned halves which descend from the lambda in postero-lateral direction, thus connecting the posterior borders of the parietal bones with the superior border of the squamous part of the occipital. [...] Sutural ossicles in  the lambdoid suture (lambdoid ossicles) occur quite frequently and may even be observed along its whole length. [Hauser &amp; De Stefano 1989: 85]</core1:description>
         <oboInOwl:hasExactSynonym>Ossa lambdoidea</oboInOwl:hasExactSynonym>
@@ -2494,7 +2502,7 @@ Foramina located in the orbital region of the frontal bone are documented as &qu
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.ParietalForamen">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HauserAndDeStefano1989"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.ParietalForamen"/>
         <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HauserAndDeStefano1989"/>
         <core1:description>One or two, rarely more foramina occur on the parietal bones near or in the sagittal suture. [cf. Hauser &amp; De Stefano 1989: 78]</core1:description>
         <oboInOwl:hasExactSynonym>Foramen parietale</oboInOwl:hasExactSynonym>
@@ -2507,7 +2515,7 @@ Foramina located in the orbital region of the frontal bone are documented as &qu
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AssaySpecification.PartitionedTemporalSquama">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HauserAndDeStefano1989"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.PartitionedTemporalSquama"/>
         <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HauserAndDeStefano1989"/>
         <core1:description>Very rarely an incomplete or complete, approximately horizontal or still less frequently vertical suture may divide the temporal squama partially or completely. [Hauser &amp; De Stefano 1989: 193]</core1:description>
         <oboInOwl:hasExactSynonym>Sutura mastoidea</oboInOwl:hasExactSynonym>
@@ -2720,7 +2728,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.LambdoidOssicle">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HauserAndDeStefano1989"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.LambdoidOssicle"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.LambdoidOssicle"/>
         <core1:description>An instance technically required for the automatic prescreening of potential specimen.
 See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
@@ -2785,7 +2793,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.ParietalForamen">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HauserAndDeStefano1989"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.ParietalForamen"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.ParietalForamen"/>
         <core1:description>An instance technically required for the automatic prescreening of potential specimen.
 See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
@@ -2798,7 +2806,7 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialRequirement.PartitionedTemporalSquama">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HauserAndDeStefano1989"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.PartitionedTemporalSquama"/>
         <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#ValueSpecification.PartitionedTemporalSquama"/>
         <core1:description>An instance technically required for the automatic prescreening of potential specimen.
 See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
@@ -3049,6 +3057,12 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
     
 
 
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.LambdoidOssicle -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.LambdoidOssicle"/>
+    
+
+
     <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MandibleAsAWhole -->
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MandibleAsAWhole"/>
@@ -3112,6 +3126,18 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
     <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.OssicleAtLambda -->
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.OssicleAtLambda"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.ParietalForamen -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.ParietalForamen"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.PartitionedTemporalSquama -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.PartitionedTemporalSquama"/>
     
 
 
@@ -3414,6 +3440,10 @@ Just select a LabelForPresence.</core1:description>
         <core1:description>Do not add a value to the instance of PresenceDatum.InfraorbitalSuture.
 Just select a LabelForPresence.</core1:description>
     </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.LambdoidOssicle">
+        <core1:description>Do not add a value to the instance of PresenceDatum.MendosalSuture.
+Just select a LabelForPresence.</core1:description>
+    </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.MentalForamen">
         <core1:description>Add one of the following values to the instance of PresenceDatum.MentalForamen in case of:
 
@@ -3442,6 +3472,14 @@ Just select a LabelForPresence.</core1:description>
 2: ossicle at lambda protruding into the parietals (&quot;Os interparietalia&quot;)
 
 3: ossicle at lambda of triangular shape protruding into the occipital (&quot;Os apicis&quot;)</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.ParietalForamen">
+        <core1:description>Do not add a value to the instance of PresenceDatum.ParietalForamen.
+Just select a LabelForPresence.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.PartitionedTemporalSquama">
+        <core1:description>Do not add a value to the instance of PresenceDatum.MendosalSuture.
+Just select a LabelForPresence.</core1:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.SupraorbitalForamen">
         <core1:description>Do not add a value to the instance of PresenceDatum.SupraorbitalForamen.
@@ -3486,6 +3524,11 @@ The output of the SpecimenCollectionProcess (=specimen) is determined by the res
 A potential input satisfies the corresponding SpecimenCollectionObjective.
 The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrNonMetricTraits.</core1:description>
     </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.LambdoidOssicle">
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the RDFBones software which automatically prescreens all skeletal inventories for potential input.
+A potential input satisfies the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrNonMetricTraits.</core1:description>
+    </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.MentalForamen">
         <core1:description>The input of this SpecimenCollectionProcess is determined by the RDFBones software which automatically prescreens all skeletal inventories for potential input.
 A potential input satisfies the corresponding SpecimenCollectionObjective.
@@ -3502,6 +3545,16 @@ A potential input satisfies the corresponding SpecimenCollectionObjective.
 The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrNonMetricTraits.</core1:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.OssicleAtLambda">
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the RDFBones software which automatically prescreens all skeletal inventories for potential input.
+A potential input satisfies the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrNonMetricTraits.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.ParietalForamen">
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the RDFBones software which automatically prescreens all skeletal inventories for potential input.
+A potential input satisfies the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrNonMetricTraits.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.PartitionedTemporalSquama">
         <core1:description>The input of this SpecimenCollectionProcess is determined by the RDFBones software which automatically prescreens all skeletal inventories for potential input.
 A potential input satisfies the corresponding SpecimenCollectionObjective.
 The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrNonMetricTraits.</core1:description>
