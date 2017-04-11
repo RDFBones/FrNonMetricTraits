@@ -23,7 +23,7 @@ Katzenberg, M. A., & Saunders, S. R. (Eds.). (2008). Biological anthropology of 
 
 
 
-For future development
+## For future development
 * Add a secondary skeletal inventory which consists of non-metric traits so that inca bones can be recorded and selected as input of the specimen collection process instead of the Neurocranium which is in RDFBones-O an anatomical term and not a physical bone region
 * The 'has characteristic' data property was defined exclusively for FrNonMetricTraits to relate integers to categorical (!) measurement data; there might be a more elegant solution
 * The conclusion class is irrelevant for FrNonMetricTraits investigations but cannot be omitted due to the RDFBones software at the moment
