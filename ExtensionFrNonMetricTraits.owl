@@ -412,6 +412,12 @@
     
 
 
+    <!-- http://w3id.org/rdfbones/core#EntireTooth -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/core#EntireTooth"/>
+    
+
+
     <!-- http://w3id.org/rdfbones/core#SkeletalInventory -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/core#SkeletalInventory"/>
@@ -1646,6 +1652,12 @@ Therefore, each instance of this class is a suitable input for the corresponding
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.EnamelPearl">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireTooth"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
