@@ -156,6 +156,17 @@
     
 
 
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#HasExpression -->
+
+    <owl:ObjectProperty rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#HasExpression">
+        <rdfs:domain rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum"/>
+        <rdfs:range rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForNonMetricTraitExpression"/>
+        <core1:description>An object property defined for FrNonMetricTraits to add a LabelForNonMetricTraitExpression to subclasses of PresenceDatum in order to document the expression of a non-metric trait.</core1:description>
+        <rdfs:label>has expression</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -170,18 +181,6 @@
     <!-- http://vivoweb.org/ontology/core#hasValue -->
 
     <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#hasValue"/>
-    
-
-
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#HasCharacteristic -->
-
-    <owl:DatatypeProperty rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#HasCharacteristic">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-        <core1:description>A data property defined for FrNonMetricTraits to add integers to subclasses of PresenceDatum.</core1:description>
-        <rdfs:label>has characteristic</rdfs:label>
-    </owl:DatatypeProperty>
     
 
 
@@ -569,7 +568,7 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.InfraorbitalForamen"/>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.PartiteInfraorbitalForamen"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -892,13 +891,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.InfraorbitalForamen"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
                 <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.InfraorbitalSuture"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -928,6 +920,13 @@
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
                 <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.OssicleAtLambda"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.PartiteInfraorbitalForamen"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1027,12 +1026,6 @@ DegreeOfSexualization = sum(WSS) / sum(W)</core1:description>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.InfraorbitalForamen"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.InfraorbitalSuture"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1075,6 +1068,12 @@ DegreeOfSexualization = sum(WSS) / sum(W)</core1:description>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.PartiteInfraorbitalForamen"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
                 <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.PartitionedTemporalSquama"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1087,7 +1086,8 @@ DegreeOfSexualization = sum(WSS) / sum(W)</core1:description>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Conclusion.FrNonMetricTraits"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Conclusion.FrNonMetricTraits"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <core1:description>Although the data entry form for cranial non-metric traits used at the Biological Anthropology department at Freiburg University does not require a conclusion, FrNonMetricTraits contains a class Conclusion.FrNonMetricTraits because the RDFBones software requires that every extension has its conclusion.</core1:description>
@@ -1129,6 +1129,51 @@ The set of traits comprises all cranial non-metric traits which were documented 
     
 
 
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#LabelForNonMetricTraitExpression -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForNonMetricTraitExpression">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000963"/>
+        <rdfs:comment>The instances of subclasses of LabelForNonMetricTraitExpression are used as labels for instances of subclasses of PresenceDatum and specify in this way how a non-metric trait is expressed.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#LabelForNonMetricTraitExpression.IncaBone -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForNonMetricTraitExpression.IncaBone">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForNonMetricTraitExpression"/>
+        <rdfs:comment>The instances of this class are used as labels for instances of PresenceDatum.IncaBone and specify in this way how an inca bone is expressed.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#LabelForNonMetricTraitExpression.MentalForamen -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForNonMetricTraitExpression.MentalForamen">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForNonMetricTraitExpression"/>
+        <rdfs:comment>The instances of this class are used as labels for instances of PresenceDatum.MentalForamen and specify in this way how a mental foramen is expressed.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#LabelForNonMetricTraitExpression.OssicleAtBregma -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForNonMetricTraitExpression.OssicleAtBregma">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForNonMetricTraitExpression"/>
+        <rdfs:comment>The instances of this class are used as labels for instances of PresenceDatum.OssicleAtBregma and specify in this way how an ossicle at bregma is expressed.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#LabelForNonMetricTraitExpression.OssicleAtLambda -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForNonMetricTraitExpression.OssicleAtLambda">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForNonMetricTraitExpression"/>
+        <rdfs:comment>The instances of this class are used as labels for instances of PresenceDatum.OssicleAtLambda and specify in this way how an ossicle at lambda is expressed.</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://w3id.org/rdfbones/extensions/FrSexEst#LabelForPresence -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForPresence">
@@ -1144,20 +1189,22 @@ The set of traits comprises all cranial non-metric traits which were documented 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000260"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000059"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#StudyDesign.FrNonMetricTraits"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialSpecification.FrNonMetricTraits"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SkeletalMaterialSpecification.FrNonMetricTraits"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
-                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#StudyDesignExecution.FrNonMetricTraits"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000059"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#StudyDesign.FrNonMetricTraits"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#StudyDesignExecution.FrNonMetricTraits"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <core1:description>For each FrNonMetricTraits investigation, an instance of Plan.NonMetricTraits must be created.
@@ -1230,8 +1277,8 @@ Add comments or documents to this instance of Plan.NonMetricTraits to specify ho
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HasCharacteristic"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HasExpression"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForNonMetricTraitExpression.IncaBone"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForPresence to the instance of this class.
@@ -1242,24 +1289,6 @@ The researcher must assign a value to this instance to specify which characteris
 2: partite inca bone
 
 3: partial inca bone</core1:description>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.InfraorbitalForamen -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.InfraorbitalForamen">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HasCharacteristic"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForPresence to the instance of this class.
-The researcher must assign a value to this instance to specify which characteristic of the evaluated trait is present:
-
-1: partite infraorbital foramen</core1:description>
     </owl:Class>
     
 
@@ -1288,8 +1317,8 @@ The researcher must assign a value to this instance to specify which characteris
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HasCharacteristic"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HasExpression"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForNonMetricTraitExpression.MentalForamen"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForPresence to the instance of this class.
@@ -1317,8 +1346,8 @@ The researcher must assign a value to this instance to specify which characteris
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HasCharacteristic"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HasExpression"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForNonMetricTraitExpression.OssicleAtBregma"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForPresence to the instance of this class.
@@ -1339,8 +1368,8 @@ The researcher must assign a value to this instance to specify which characteris
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HasCharacteristic"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#HasExpression"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForNonMetricTraitExpression.OssicleAtLambda"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForPresence to the instance of this class.
@@ -1358,6 +1387,15 @@ The researcher must assign a value to this instance to specify which characteris
     <!-- http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.ParietalForamen -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.ParietalForamen">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum"/>
+        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForPresence to the instance of this class.</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.PartiteInfraorbitalForamen -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum.PartiteInfraorbitalForamen">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum"/>
         <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForPresence to the instance of this class.</core1:description>
     </owl:Class>
@@ -1389,7 +1427,8 @@ The researcher must assign a value to this instance to specify which characteris
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#SkeletalInventory"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#SkeletalInventory"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>A class technically required for the automatic prescreening of potential specimen.
@@ -1628,20 +1667,22 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.BiasterionicSuture"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfOccipitalBone"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfOccipitalBone"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.BiasterionicSuture"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.BiasterionicSuture"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.BiasterionicSuture"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1680,20 +1721,22 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrontalForamen"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfFrontalBone"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfFrontalBone"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.FrontalForamen"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.FrontalForamen"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.FrontalForamen"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1706,20 +1749,22 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.IncaBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_53672"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/FMA_53672"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.IncaBone"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.IncaBone"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.IncaBone"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1732,20 +1777,22 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfMaxilla"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.InfraorbitalForamen"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.InfraorbitalForamen"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.InfraorbitalForamen"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.InfraorbitalForamen"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfMaxilla"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1758,20 +1805,22 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfMaxilla"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.InfraorbitalSuture"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.InfraorbitalSuture"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.InfraorbitalSuture"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.InfraorbitalSuture"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfMaxilla"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1784,12 +1833,6 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_53672"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.LambdoidOssicle"/>
             </owl:Restriction>
@@ -1798,6 +1841,13 @@ Therefore, each instance of this class is a suitable input for the corresponding
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.LambdoidOssicle"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/FMA_53672"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1810,20 +1860,22 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.MentalForamen"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfMandible"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfMandible"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.MentalForamen"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.MentalForamen"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.MentalForamen"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1836,20 +1888,22 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.MetopicSuture"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfFrontalBone"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfFrontalBone"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.MetopicSuture"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.MetopicSuture"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.MetopicSuture"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1862,12 +1916,6 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_53672"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.OssicleAtBregma"/>
             </owl:Restriction>
@@ -1876,6 +1924,13 @@ Therefore, each instance of this class is a suitable input for the corresponding
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.OssicleAtBregma"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/FMA_53672"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1888,12 +1943,6 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FMA_53672"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.OssicleAtLambda"/>
             </owl:Restriction>
@@ -1902,6 +1951,13 @@ Therefore, each instance of this class is a suitable input for the corresponding
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
                 <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.OssicleAtLambda"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/FMA_53672"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1914,20 +1970,22 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfParietalBone"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.ParietalForamen"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.ParietalForamen"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.ParietalForamen"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.ParietalForamen"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfParietalBone"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1940,20 +1998,22 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfTemporalBone"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.PartitionedTemporalSquama"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.PartitionedTemporalSquama"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.PartitionedTemporalSquama"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.PartitionedTemporalSquama"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfTemporalBone"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1966,20 +2026,22 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.SupraorbitalForamen"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfFrontalBone"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfFrontalBone"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.SupraorbitalForamen"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionObjective.SupraorbitalForamen"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#Specimen.SupraorbitalForamen"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -2186,6 +2248,15 @@ Since each instance of StudyDesignExecution.FrNonMetricTraits corresponds to the
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Absent">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForPresence"/>
         <rdfs:label>absent</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#AbsentMentalForamen -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#AbsentMentalForamen">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForNonMetricTraitExpression.MentalForamen"/>
+        <rdfs:label>Absent mental foramen</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2477,6 +2548,15 @@ In FrNonMetricTraits, all these foramina are subsumed under &quot;supraorbital f
     
 
 
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#CompleteIncaBone -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#CompleteIncaBone">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForNonMetricTraitExpression.IncaBone"/>
+        <rdfs:label>Complete inca bone</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://w3id.org/rdfbones/extensions/FrSexEst#DataTransformationObjective.FrSexEst -->
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#DataTransformationObjective.FrSexEst">
@@ -2509,6 +2589,15 @@ Due to a lack of empirical evidence for a &quot;sufficient number of evaluated t
     
 
 
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#MultipleMentalForamina -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#MultipleMentalForamina">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForNonMetricTraitExpression.MentalForamen"/>
+        <rdfs:label>Multiple mental foramina</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://w3id.org/rdfbones/extensions/FrSexEst#NonMetricTrait -->
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#NonMetricTrait">
@@ -2525,6 +2614,78 @@ Due to a lack of empirical evidence for a &quot;sufficient number of evaluated t
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#NotObservable">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForPresence"/>
         <rdfs:label>not observable</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#OsApicis -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#OsApicis">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForNonMetricTraitExpression.OssicleAtLambda"/>
+        <rdfs:label>Os apicis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#OsBregmFront -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#OsBregmFront">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForNonMetricTraitExpression.OssicleAtBregma"/>
+        <rdfs:label>Os bregm. front.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#OsBregmPariet -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#OsBregmPariet">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForNonMetricTraitExpression.OssicleAtBregma"/>
+        <rdfs:label>Os bregm. pariet.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#OsBregmaticum -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#OsBregmaticum">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForNonMetricTraitExpression.OssicleAtBregma"/>
+        <rdfs:label>Os bregmaticum</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#OsInterparietalia -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#OsInterparietalia">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForNonMetricTraitExpression.OssicleAtLambda"/>
+        <rdfs:label>Os interparietalia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#OsLambdae -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#OsLambdae">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForNonMetricTraitExpression.OssicleAtLambda"/>
+        <rdfs:label>Os lambdae</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#PartialIncaBone -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#PartialIncaBone">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForNonMetricTraitExpression.IncaBone"/>
+        <rdfs:label>Partial inca bone</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrSexEst#PartiteIncaBone -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#PartiteIncaBone">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrSexEst#LabelForNonMetricTraitExpression.IncaBone"/>
+        <rdfs:label>Partite inca bone</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3249,6 +3410,9 @@ It is used to determine that the specified input of the corresponding SpecimenCo
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#Assay.SupraorbitalForamen">
         <core1:description>Examine a frontal bone for the presence of supraorbital foramina.</core1:description>
     </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#PresenceDatum">
+        <core1:description>Presence data are generated in FrNonMetricTrait investigations. Presence data record if a non-metric trait is present, absent or not observable and - for some non-metric traits - the concrete expression of a non-metric trait.</core1:description>
+    </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrSexEst#SpecimenCollectionProcess.BiasterionicSuture">
         <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. The potential input is defined by the corresponding SpecimenCollectionObjective.
 The output of the SpecimenCollectionProcess (=specimen) is determined by the researcher. The reseacher examines the input given by the software and selects specimens according to his refined criteria specified in the Plan.FrNonMetricTraits.</core1:description>
@@ -3309,5 +3473,5 @@ The output of the SpecimenCollectionProcess (=specimen) is determined by the res
 
 
 
-<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.2.3.20160319-0906) https://github.com/owlcs/owlapi -->
 
